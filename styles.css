@@ -1,38 +1,64 @@
 body {
     font-family: Arial, sans-serif;
+    background-color: #E0B0FF; /* Amethyst/Mauve Hintergrundfarbe */
     margin: 0;
     padding: 0;
-    background-color: #f9f9f9;
+    color: #4B0082; /* Dunkelviolett für den Text */
 }
 
 header {
-    background-color: #4CAF50;
-    color: white;
-    text-align: center;
-    padding: 1em 0;
+    background-color: #6A5ACD; /* Dunklerer Farbton für den Header */
+    padding: 10px 20px;
 }
 
-section {
-    margin: 20px;
-    padding: 20px;
-    background-color: white;
-    border-radius: 8px;
-    box-shadow: 0 2px 5px rgba(0, 0, 0, 0.1);
+nav {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
 }
 
-footer {
-    text-align: center;
-    padding: 10px;
-    background-color: #4CAF50;
-    color: white;
-    position: fixed;
-    width: 100%;
-    bottom: 0;
-}
-
-#countdown {
+.nav-left {
     font-size: 24px;
-    margin: 20px 0;
     font-weight: bold;
-    color: #4CAF50;
+}
+
+.nav-right a {
+    margin-left: 20px;
+    color: white;
+    text-decoration: none;
+}
+
+.nav-right a:hover {
+    text-decoration: underline;
+}
+
+.hero {
+    position: relative;
+    text-align: center;
+    margin: 20px 0;
+}
+
+.hero img {
+    width: 100%;
+    height: auto;
+}
+
+.hero-text {
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+    color: white;
+    text-shadow: 2px 2px 4px rgba(0, 0, 0, 0.5);
+}
+
+.hearts {
+    font-size: 24px;
+}
+
+.einladung {
+    padding: 20px;
+    background-color: #FFF0F5; /* Lavendelblütenfarbe für den Einladungstext */
+    margin: 20px;
+    border-radius: 8px;
 }

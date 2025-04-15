@@ -3,85 +3,43 @@
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Unsere Hochzeit</title>
     <link rel="stylesheet" href="styles.css">
+    <title>Hochzeit von Saskia & Dustin</title>
 </head>
 <body>
     <header>
-        <h1>Willkommen zu unserer Hochzeit!</h1>
+        <nav>
+            <div class="nav-left">Saskia & Dustin</div>
+            <div class="nav-right">
+                <a href="#einladung">Einladung</a>
+                <a href="#locations">Locations</a>
+                <a href="#tagesablauf">Tagesablauf</a>
+                <a href="#unterkuenfte">Unterkünfte</a>
+                <a href="#rueckmeldung">Rückmeldung</a>
+                <a href="#organisatoren">Organisatoren</a>
+                <a href="#faq">FAQ</a>
+            </div>
+        </nav>
     </header>
+    
+    <main>
+        <section class="hero">
+            <img src="images/Verlobungsbild.jpg" alt="Verlobungsbild von Saskia und Dustin">
+            <div class="hero-text">
+                <h1>Saskia und Dustin heiraten!</h1>
+                <div class="hearts">❤️❤️</div>
+                <p>Am 22. August 2025 ist es endlich soweit!</p>
+            </div>
+        </section>
 
-    <section id="countdown">
-        <h2>Countdown bis zur Hochzeit:</h2>
-        <div id="timer"></div>
-    </section>
-
-    <section id="details">
-        <h2>Details zur Hochzeit</h2>
-        <p>Datum: 22. August 2025</p>
-        <p>Ort: Freiämter Hof</p>
-        <img src="images/bild.jpg" alt="Verlobung Bild" width="600">
-    </section>
-
-    <section id="schedule">
-        <h2>Zeitplan</h2>
-        <ul>
-            <li>14:00 - Ankunft</li>
-            <li>14:30 - Freie Trauung</li>
-            <li>15:30 - Sektempfang</li>
-            <li>18:00 - Abendessen</li>
-            <li>00:00 - Mitternachtsimbiss</li>
-        </ul>
-    </section>
-
-    <section id="locations">
-        <h2>Locations</h2>
-        <ul>
-            <li>Freiämter Hof, Freiämter Straße 1, 12345 Musterstadt</li>
-            <li>Restaurant Eleganz, Eleganzstraße 10, 12345 Musterstadt</li>
-            <li>Hotel Komfort, Komfortstraße 5, 12345 Musterstadt</li>
-        </ul>
-    </section>
-
-    <section id="rsvp">
-        <h2>RSVP</h2>
-        <form action="submit_rsvp.php" method="post">
-            <label for="name">Name:</label>
-            <input type="text" id="name" name="name" required>
-            <label for="attending">Kommst du?</label>
-            <select id="attending" name="attending">
-                <option value="yes">Ja</option>
-                <option value="no">Nein</option>
-            </select>
-            <button type="submit">Absenden</button>
-        </form>
-    </section>
-
-    <footer>
-        <p>&copy; 2023 Unsere Hochzeit</p>
-    </footer>
-
-    <script>
-        // Countdown-Funktion
-        const weddingDate = new Date("2025-08-22T14:00:00").getTime();
-
-        const timer = setInterval(function() {
-            const now = new Date().getTime();
-            const distance = weddingDate - now;
-
-            const days = Math.floor(distance / (1000 * 60 * 60 * 24));
-            const hours = Math.floor((distance % (1000 * 60 * 60 * 24)) / (1000 * 60 * 60));
-            const minutes = Math.floor((distance % (1000 * 60 * 60)) / (1000 * 60));
-            const seconds = Math.floor((distance % (1000 * 60)) / 1000);
-
-            document.getElementById("timer").innerHTML = days + " Tage " + hours + " Stunden "
-            + minutes + " Minuten " + seconds + " Sekunden ";
-
-            if (distance < 0) {
-                clearInterval(timer);
-                document.getElementById("timer").innerHTML = "Die Hochzeit hat begonnen!";
-            }
-        }, 1000);
-    </script>
+        <section id="einladung" class="einladung">
+            <h2>Einladung</h2>
+            <p>Liebe Gäste,<br>
+            zu unserer Hochzeit am 22. August 2025 laden wir euch recht herzlich zum Freiämter Hof ein!<br>
+            Gebt uns doch bitte zeitnah Bescheid, ob ihr diesen Tag mit uns feiern wollt.<br>
+            Liebe Grüße,<br>
+            Saskia und Dustin</p>
+        </section>
+    </main>
 </body>
 </html>
