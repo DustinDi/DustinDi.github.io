@@ -66,3 +66,18 @@ nav {
     margin: 20px;
     border-radius: 8px;
 }
+
+.countdown {
+    padding: 20px;
+    background-color: #FFF0F5; /* Lavendelblütenfarbe für den Countdown-Bereich */
+    margin: 20px;
+    border-radius: 8px;
+    text-align: center;
+}
+
+.locations {
+    padding: 20px;
+    background-color: #FFF0F5; /* Lavendelblütenfarbe für den Locations-Bereich */
+    margin: 20px;
+    border-radius: 8px;
+}
