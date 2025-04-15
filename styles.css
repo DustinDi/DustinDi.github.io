@@ -80,6 +80,7 @@ nav {
     background-color: white; /* Hintergrund für den Countdown-Timer auf Weiß */
     padding: 10px;
     border-radius: 8px;
+    margin-top: 10px; /* Abstand zwischen Banner und Timer */
 }
 
 .locations {
@@ -90,8 +91,9 @@ nav {
     text-align: center; /* Locationstext mittig ausrichten */
 }
 
-.locations p {
+.location-info {
     background-color: white; /* Hintergrund für die Standortinformationen auf Weiß */
-    padding: 10px;
+    padding: 20px;
+    margin: 20px;
     border-radius: 8px;
 }
