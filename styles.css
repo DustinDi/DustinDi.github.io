@@ -3,7 +3,7 @@ body {
     background-color: white; /* Hintergrundfarbe auf Weiß gesetzt */
     margin: 0;
     padding: 0;
-    color: #4B0082; /* Dunkelviolett für den Text */
+    color: black; /* Textfarbe auf Schwarz gesetzt */
 }
 
 header {
@@ -48,7 +48,7 @@ nav {
     top: 50%;
     left: 50%;
     transform: translate(-50%, -50%);
-    color: white;
+    color: white; /* Textfarbe auf Weiß für den Overlay-Text */
     text-shadow: 2px 2px 4px rgba(0, 0, 0, 0.5);
 }
 
