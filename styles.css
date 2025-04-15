@@ -76,10 +76,22 @@ nav {
     text-align: center; /* Countdown mittig ausrichten */
 }
 
+.countdown-timer {
+    background-color: white; /* Hintergrund für den Countdown-Timer auf Weiß */
+    padding: 10px;
+    border-radius: 8px;
+}
+
 .locations {
     padding: 20px;
     background-color: #EAB8E4; /* Mauve Farbe für den Locations-Bereich */
     margin: 20px;
     border-radius: 8px;
     text-align: center; /* Locationstext mittig ausrichten */
+}
+
+.locations p {
+    background-color: white; /* Hintergrund für die Standortinformationen auf Weiß */
+    padding: 10px;
+    border-radius: 8px;
 }
