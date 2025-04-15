@@ -1,95 +1,586 @@
+
 <!DOCTYPE html>
-<html lang="de">
-<head>
-    <meta charset="UTF-8">
-    <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Unsere Hochzeit</title>
-    <link rel="stylesheet" href="styles.css">
-    <style>
-        #countdown {
-            font-size: 24px;
-            margin: 20px 0;
-            font-weight: bold;
-            color: #4CAF50;
-        }
-    </style>
-</head>
-<body>
-    <header>
-        <h1>Willkommen zu unserer Hochzeit!</h1>
-    </header>
+<html lang="de" dir="ltr">
+    <head>
+        <meta charset="UTF-8"/>
+<meta name="viewport" content="width=device-width, initial-scale=1.0" />
 
-    <section id="countdown">
-        <h2>Countdown bis zur Hochzeit:</h2>
-        <div id="timer"></div>
-    </section>
+<!--[if IE]><meta http-equiv="X-UA-Compatible" content="IE=edge"><![endif]-->
 
-    <section id="details">
-        <h2>Details zur Hochzeit</h2>
-        <p>Datum: 22. August 2025</p>
-        <p>Ort: Freiämter Hof</p>
-        <img src="images/bild.jpg" alt="Verlobung Bild" width="600">
-    </section>
+    <link rel="apple-touch-icon" sizes="180x180" href="https://saskia-dustin.weddybird.com/favicon/weddybird/apple-touch-icon.png">
+    <link rel="icon" type="image/png" sizes="32x32" href="https://saskia-dustin.weddybird.com/favicon/weddybird/favicon-32x32.png">
+    <link rel="icon" type="image/png" sizes="16x16" href="https://saskia-dustin.weddybird.com/favicon/weddybird/favicon-16x16.png">
+    <link rel="manifest" href="https://saskia-dustin.weddybird.com/favicon/weddybird/site.webmanifest">
+    <link rel="mask-icon" href="https://saskia-dustin.weddybird.com/favicon/weddybird/safari-pinned-tab.svg" color="#b77481">
+    <link rel="shortcut icon" href="https://saskia-dustin.weddybird.com/favicon/weddybird/favicon.ico">
+    <meta name="msapplication-TileColor" content="#b77481">
+    <meta name="msapplication-config" content="https://saskia-dustin.weddybird.com/favicon/weddybird/browserconfig.xml">
 
-    <section id="schedule">
-        <h2>Zeitplan</h2>
-        <ul>
-            <li>14:00 - Ankunft</li>
-            <li>14:30 - Freie Trauung</li>
-            <li>15:30 - Sektempfang</li>
-            <li>18:00 - Abendessen</li>
-            <li>00:00 - Mitternachtsimbiss</li>
-        </ul>
-    </section>
+<link rel="preconnect" href="https://fonts.bunny.net/" crossorigin>
 
-    <section id="locations">
-        <h2>Locations</h2>
-        <ul>
-            <li>Freiämter Hof, Freiämter Straße 1, 12345 Musterstadt</li>
-            <li>Restaurant Eleganz, Eleganzstraße 10, 12345 Musterstadt</li>
-            <li>Hotel Komfort, Komfortstraße 5, 12345 Musterstadt</li>
-        </ul>
-    </section>
+<title>Saskia und Dustin heiraten! - Am 22. August 2025 ist es endlich soweit! - Saskia und Dustin</title>
+<meta property="og:title" content="Saskia und Dustin heiraten! - Am 22. August 2025 ist es endlich soweit! - Saskia und Dustin" />
 
-    <section id="rsvp">
-        <h2>RSVP</h2>
-        <form action="submit_rsvp.php" method="post">
-            <label for="name">Name:</label>
-            <input type="text" id="name" name="name" required>
-            <label for="attending">Kommst du?</label>
-            <select id="attending" name="attending">
-                <option value="yes">Ja</option>
-                <option value="no">Nein</option>
-            </select>
-            <button type="submit">Absenden</button>
-        </form>
-    </section>
+<meta name="theme-color" content="#3b9ea7" />
+<meta name="google" content="notranslate" />
+<meta name="code_version" content="92cd9726a4dea8ce34892ad3e779d82bfaad49cc">
+<meta name="robots" content="noindex" />
+    <meta name="robots" content="noimageindex" />
+    <meta name="pinterest" content="nopin" />
 
-    <footer>
-        <p>&copy; 2023 Unsere Hochzeit</p>
-    </footer>
+<meta property="og:type" content="article" />
+<meta property="og:description" content="powered by WeddyBird" />
+<meta property="og:url" content="https://saskia-dustin.weddybird.com/" />
 
+                            <script>
+            var _rollbarConfig = {
+                accessToken: '9cbfea809c5241b39d50a9e03742ee29',
+                captureUncaught: true,
+                captureUnhandledRejections: true,
+                captureIp: 'anonymize',
+                payload: {
+                    environment: 'prod',
+                    client: {
+                        javascript: {
+                            source_map_enabled: true,
+                            guess_uncaught_frames: true,
+                            code_version: '92cd9726a4dea8ce34892ad3e779d82bfaad49cc'
+                        }
+                    },
+                    pageRenderedAt: '2025-04-15 10:41:05',
+                    person: {
+                        id: 102553
+                    }
+                                    },
+                hostSafeList: ['saskia-dustin.weddybird.com', 'weddingpage'],
+                                                transform: function(payload) {
+                    var trace = payload.body.trace;
+                    var locRegex = /^(https?):\/\/saskia\-dustin\.weddybird\.com(:[0-9]+)?(.*)/;
+                    if (trace && trace.frames) {
+                        for (var i = 0; i < trace.frames.length; i++) {
+                            var filename = trace.frames[i].filename;
+                            if (filename) {
+                                var m = filename.match(locRegex);
+                                // Be sure that the minified_url when uploading includes 'dynamichost'
+                                trace.frames[i].filename = m[1] + '://weddingpage' + m[3];
+                            }
+                        }
+                    }
+                }
+                            };
+            // Rollbar Snippet
+            !function(r){var e={};function o(n){if(e[n])return e[n].exports;var t=e[n]={i:n,l:!1,exports:{}};return r[n].call(t.exports,t,t.exports,o),t.l=!0,t.exports}o.m=r,o.c=e,o.d=function(r,e,n){o.o(r,e)||Object.defineProperty(r,e,{enumerable:!0,get:n})},o.r=function(r){"undefined"!=typeof Symbol&&Symbol.toStringTag&&Object.defineProperty(r,Symbol.toStringTag,{value:"Module"}),Object.defineProperty(r,"__esModule",{value:!0})},o.t=function(r,e){if(1&e&&(r=o(r)),8&e)return r;if(4&e&&"object"==typeof r&&r&&r.__esModule)return r;var n=Object.create(null);if(o.r(n),Object.defineProperty(n,"default",{enumerable:!0,value:r}),2&e&&"string"!=typeof r)for(var t in r)o.d(n,t,function(e){return r[e]}.bind(null,t));return n},o.n=function(r){var e=r&&r.__esModule?function(){return r.default}:function(){return r};return o.d(e,"a",e),e},o.o=function(r,e){return Object.prototype.hasOwnProperty.call(r,e)},o.p="",o(o.s=0)}([function(r,e,o){"use strict";var n=o(1),t=o(5);_rollbarConfig=_rollbarConfig||{},_rollbarConfig.rollbarJsUrl=_rollbarConfig.rollbarJsUrl||"https://cdn.rollbar.com/rollbarjs/refs/tags/v2.22.0/rollbar.min.js",_rollbarConfig.async=void 0===_rollbarConfig.async||_rollbarConfig.async;var a=n.setupShim(window,_rollbarConfig),l=t(_rollbarConfig);window.rollbar=n.Rollbar,a.loadFull(window,document,!_rollbarConfig.async,_rollbarConfig,l)},function(r,e,o){"use strict";var n=o(2),t=o(3);function a(r){return function(){try{return r.apply(this,arguments)}catch(r){try{console.error("[Rollbar]: Internal error",r)}catch(r){}}}}var l=0;function i(r,e){this.options=r,this._rollbarOldOnError=null;var o=l++;this.shimId=function(){return o},"undefined"!=typeof window&&window._rollbarShims&&(window._rollbarShims[o]={handler:e,messages:[]})}var s=o(4),d=function(r,e){return new i(r,e)},c=function(r){return new s(d,r)};function u(r){return a((function(){var e=this,o=Array.prototype.slice.call(arguments,0),n={shim:e,method:r,args:o,ts:new Date};window._rollbarShims[this.shimId()].messages.push(n)}))}i.prototype.loadFull=function(r,e,o,n,t){var l=!1,i=e.createElement("script"),s=e.getElementsByTagName("script")[0],d=s.parentNode;i.crossOrigin="",i.src=n.rollbarJsUrl,o||(i.async=!0),i.onload=i.onreadystatechange=a((function(){if(!(l||this.readyState&&"loaded"!==this.readyState&&"complete"!==this.readyState)){i.onload=i.onreadystatechange=null;try{d.removeChild(i)}catch(r){}l=!0,function(){var e;if(void 0===r._rollbarDidLoad){e=new Error("rollbar.js did not load");for(var o,n,a,l,i=0;o=r._rollbarShims[i++];)for(o=o.messages||[];n=o.shift();)for(a=n.args||[],i=0;i<a.length;++i)if("function"==typeof(l=a[i])){l(e);break}}"function"==typeof t&&t(e)}()}})),d.insertBefore(i,s)},i.prototype.wrap=function(r,e,o){try{var n;if(n="function"==typeof e?e:function(){return e||{}},"function"!=typeof r)return r;if(r._isWrap)return r;if(!r._rollbar_wrapped&&(r._rollbar_wrapped=function(){o&&"function"==typeof o&&o.apply(this,arguments);try{return r.apply(this,arguments)}catch(o){var e=o;throw e&&("string"==typeof e&&(e=new String(e)),e._rollbarContext=n()||{},e._rollbarContext._wrappedSource=r.toString(),window._rollbarWrappedError=e),e}},r._rollbar_wrapped._isWrap=!0,r.hasOwnProperty))for(var t in r)r.hasOwnProperty(t)&&(r._rollbar_wrapped[t]=r[t]);return r._rollbar_wrapped}catch(e){return r}};for(var p="log,debug,info,warn,warning,error,critical,global,configure,handleUncaughtException,handleAnonymousErrors,handleUnhandledRejection,captureEvent,captureDomContentLoaded,captureLoad".split(","),f=0;f<p.length;++f)i.prototype[p[f]]=u(p[f]);r.exports={setupShim:function(r,e){if(r){var o=e.globalAlias||"Rollbar";if("object"==typeof r[o])return r[o];r._rollbarShims={},r._rollbarWrappedError=null;var l=new c(e);return a((function(){e.captureUncaught&&(l._rollbarOldOnError=r.onerror,n.captureUncaughtExceptions(r,l,!0),e.wrapGlobalEventHandlers&&t(r,l,!0)),e.captureUnhandledRejections&&n.captureUnhandledRejections(r,l,!0);var a=e.autoInstrument;return!1!==e.enabled&&(void 0===a||!0===a||"object"==typeof a&&a.network)&&r.addEventListener&&(r.addEventListener("load",l.captureLoad.bind(l)),r.addEventListener("DOMContentLoaded",l.captureDomContentLoaded.bind(l))),r[o]=l,l}))()}},Rollbar:c}},function(r,e,o){"use strict";function n(r,e,o,n){r._rollbarWrappedError&&(n[4]||(n[4]=r._rollbarWrappedError),n[5]||(n[5]=r._rollbarWrappedError._rollbarContext),r._rollbarWrappedError=null);var t=e.handleUncaughtException.apply(e,n);o&&o.apply(r,n),"anonymous"===t&&(e.anonymousErrorsPending+=1)}r.exports={captureUncaughtExceptions:function(r,e,o){if(r){var t;if("function"==typeof e._rollbarOldOnError)t=e._rollbarOldOnError;else if(r.onerror){for(t=r.onerror;t._rollbarOldOnError;)t=t._rollbarOldOnError;e._rollbarOldOnError=t}e.handleAnonymousErrors();var a=function(){var o=Array.prototype.slice.call(arguments,0);n(r,e,t,o)};o&&(a._rollbarOldOnError=t),r.onerror=a}},captureUnhandledRejections:function(r,e,o){if(r){"function"==typeof r._rollbarURH&&r._rollbarURH.belongsToShim&&r.removeEventListener("unhandledrejection",r._rollbarURH);var n=function(r){var o,n,t;try{o=r.reason}catch(r){o=void 0}try{n=r.promise}catch(r){n="[unhandledrejection] error getting `promise` from event"}try{t=r.detail,!o&&t&&(o=t.reason,n=t.promise)}catch(r){}o||(o="[unhandledrejection] error getting `reason` from event"),e&&e.handleUnhandledRejection&&e.handleUnhandledRejection(o,n)};n.belongsToShim=o,r._rollbarURH=n,r.addEventListener("unhandledrejection",n)}}}},function(r,e,o){"use strict";function n(r,e,o){if(e.hasOwnProperty&&e.hasOwnProperty("addEventListener")){for(var n=e.addEventListener;n._rollbarOldAdd&&n.belongsToShim;)n=n._rollbarOldAdd;var t=function(e,o,t){n.call(this,e,r.wrap(o),t)};t._rollbarOldAdd=n,t.belongsToShim=o,e.addEventListener=t;for(var a=e.removeEventListener;a._rollbarOldRemove&&a.belongsToShim;)a=a._rollbarOldRemove;var l=function(r,e,o){a.call(this,r,e&&e._rollbar_wrapped||e,o)};l._rollbarOldRemove=a,l.belongsToShim=o,e.removeEventListener=l}}r.exports=function(r,e,o){if(r){var t,a,l="EventTarget,Window,Node,ApplicationCache,AudioTrackList,ChannelMergerNode,CryptoOperation,EventSource,FileReader,HTMLUnknownElement,IDBDatabase,IDBRequest,IDBTransaction,KeyOperation,MediaController,MessagePort,ModalWindow,Notification,SVGElementInstance,Screen,TextTrack,TextTrackCue,TextTrackList,WebSocket,WebSocketWorker,Worker,XMLHttpRequest,XMLHttpRequestEventTarget,XMLHttpRequestUpload".split(",");for(t=0;t<l.length;++t)r[a=l[t]]&&r[a].prototype&&n(e,r[a].prototype,o)}}},function(r,e,o){"use strict";function n(r,e){this.impl=r(e,this),this.options=e,function(r){for(var e=function(r){return function(){var e=Array.prototype.slice.call(arguments,0);if(this.impl[r])return this.impl[r].apply(this.impl,e)}},o="log,debug,info,warn,warning,error,critical,global,configure,handleUncaughtException,handleAnonymousErrors,handleUnhandledRejection,_createItem,wrap,loadFull,shimId,captureEvent,captureDomContentLoaded,captureLoad".split(","),n=0;n<o.length;n++)r[o[n]]=e(o[n])}(n.prototype)}n.prototype._swapAndProcessMessages=function(r,e){var o,n,t;for(this.impl=r(this.options);o=e.shift();)n=o.method,t=o.args,this[n]&&"function"==typeof this[n]&&("captureDomContentLoaded"===n||"captureLoad"===n?this[n].apply(this,[t[0],o.ts]):this[n].apply(this,t));return this},r.exports=n},function(r,e,o){"use strict";r.exports=function(r){return function(e){if(!e&&!window._rollbarInitialized){for(var o,n,t=(r=r||{}).globalAlias||"Rollbar",a=window.rollbar,l=function(r){return new a(r)},i=0;o=window._rollbarShims[i++];)n||(n=o.handler),o.handler._swapAndProcessMessages(l,o.messages);window[t]=n,window._rollbarInitialized=!0}}}}]);
+            // End Rollbar Snippet
+        </script>
+    
     <script>
-        // Countdown-Funktion
-        const weddingDate = new Date("2025-08-22T14:00:00").getTime();
-
-        const timer = setInterval(function() {
-            const now = new Date().getTime();
-            const distance = weddingDate - now;
-
-            const days = Math.floor(distance / (1000 * 60 * 60 * 24));
-            const hours = Math.floor((distance % (1000 * 60 * 60 * 24)) / (1000 * 60 * 60));
-            const minutes = Math.floor((distance % (1000 * 60 * 60)) / (1000 * 60));
-            const seconds = Math.floor((distance % (1000 * 60)) / 1000);
-
-            document.getElementById("timer").innerHTML = days + " Tage " + hours + " Stunden "
-            + minutes + " Minuten " + seconds + " Sekunden ";
-
-            if (distance < 0) {
-                clearInterval(timer);
-                document.getElementById("timer").innerHTML = "Die Hochzeit hat begonnen!";
-            }
-        }, 1000);
+        window.Translations = {
+            'general.check_inputs': 'Bitte prüfe deine Eingaben.',
+        }
     </script>
-</body>
+
+    <script async src="/g/tag"  nonce="QuuBB/rXd7QnOYE3MzHuJQ=="></script>
+            <script>
+            window.dataLayer = window.dataLayer || [];
+            function gtag(){dataLayer.push(arguments);}
+            gtag('js', new Date());
+
+            gtag('config', 'G-1Z78EGDNSK', {
+                transport_url: 'https://saskia-dustin.weddybird.com'
+            });
+            gtag('set', 'anonymizeIp', true);
+
+            gtag('event', 'homepage_view', {"package":"basic","locale":"de"});
+        </script>
+    
+                    <meta property="og:image" content="https://p-weddybird-cdn.b-cdn.net/uploads/2025-04/af41d7c0-7165-499b-a091-867dcb34c3e5/cb8bef8c-4efc-4007-a978-e74b00b074a3.jpg?width=600&height=600" />
+        
+                                <link href="/client/weddybird/wedding-page.css?5b4597c358038e11a865" rel="stylesheet" type="text/css" />
+                <link rel="stylesheet" href="https://fonts.bunny.net/css?family=Lobster:300,400,500,700&amp;display=swap" type="text/css" />
+<link rel="stylesheet" href="https://fonts.bunny.net/css?family=Open+Sans:300,400,500,700&amp;display=swap" type="text/css" />
+
+<style type="text/css">
+    :root{--text-font: "Open Sans";--headline-font: "Lobster";--text-font-size: 16px;--headline-font-size: 16px;--headline-text-transform: none;--navigation-text-transform: none;--locale-selector-options-count: 0;--form-select-bg-image: url("data:image/svg+xml;base64,PHN2ZyB4bWxucz0iaHR0cDovL3d3dy53My5vcmcvMjAwMC9zdmciIHZpZXdCb3g9IjAgMCAxNiAxNiI+PHBhdGggZmlsbD0ibm9uZSIgc3Ryb2tlPSIjMzMzMzMzIiBzdHJva2UtbGluZWNhcD0icm91bmQiIHN0cm9rZS1saW5lam9pbj0icm91bmQiIHN0cm9rZS13aWR0aD0iMiIgZD0ibTIgNSA2IDYgNi02Ii8+PC9zdmc+");--primary-color: #3b9ea7;--primary-color-darker: #2e7a81;--primary-color-rgb: 59, 158, 167;--text-primary-color: #3b9ea7;--text-primary-color-darker: #2e7a81;--text-color: #333333;--text-color-rgb: 51, 51, 51;--header-section-background-color: #f6f6f6;--header-section-foreground-color: #333333;--header-section-foreground-color-rgb: 51, 51, 51;--foreground-color-on-primary-color-background: #ffffff;--hero-color: #ffffff;--site-background-color: #ffffff;--site-background-color-rgb: 255, 255, 255;--site-background-color-black-white: #ffffff;--site-background-color-black-white-rgb: 255, 255, 255;--site-background-color-black-white-negative: #000000;--site-background-color-black-white-negative-rgb: 0, 0, 0;--form-field-background-color: #ffffff;}
+</style>
+
+
+            </head>
+    <body class="">
+        
+
+                                        <a class="weddybird-badge" href="https://weddybird.com/?ref=badge&amp;utm_content=wedding_page" target="_blank"></a>
+                                                            <section class="page-wrapper">
+                                    
+<header class="page-header" id="page-header">
+    
+
+
+    <section class="page-image-header" id="page-image-header" data-slider-delay="7">
+                <div class="image-slider">
+                                                                    
+                                                                                    <img src="https://cdn.wbsrv.de/uploads/2025-04/af41d7c0-7165-499b-a091-867dcb34c3e5/cb8bef8c-4efc-4007-a978-e74b00b074a3.jpg"
+                         class="slider-image img-background desktop init"
+                         style="object-position: 50% 50%;"
+                         alt="">
+                                                                        <img src="https://cdn.wbsrv.de/uploads/2025-04/af41d7c0-7165-499b-a091-867dcb34c3e5/cb8bef8c-4efc-4007-a978-e74b00b074a3.jpg"
+                         class="slider-image img-background mobile init"
+                         style="object-position: 50% 50%;"
+                         alt="">
+                                    
+                                <img class="slider-image img-background desktop mobile"
+                     data-src="https://cdn.wbsrv.de/uploads/2025-04/af41d7c0-7165-499b-a091-867dcb34c3e5/cb8bef8c-4efc-4007-a978-e74b00b074a3.jpg"
+                     style="object-position: 50% 50%;"
+                     alt="" />
+                    </div>
+        <div class="title-wrapper align-center text-shadow">
+            <div class="title container">
+                                    <div class="headline-font-wrapper">
+                        <h1>Saskia und Dustin heiraten!</h1>
+                    </div>
+                                                    <div class="horizontal-separator horizontal-separator-hero-color">
+                                                    <div class="icons">
+                                <i class="fas fa-heart"></i>
+                                <i class="fas fa-heart"></i>
+                                <i class="fas fa-heart"></i>
+                            </div>
+                                            </div>
+                                                    <div class="headline-font-wrapper">
+                        <h2>Am 22. August 2025 ist es endlich soweit!</h2>
+                    </div>
+                            </div>
+        </div>
+    </section>
+</header>
+
+                                                                                                                                                                        
+    <nav class="page-header-navigation" id="sticky-navigation">
+        <div class="headline-font-wrapper">
+            <a href="#" class="names anchor-link">
+                Saskia und Dustin
+            </a>
+        </div>
+        <div class="navigation-wrapper">
+            <a class="navigation-navigate" data-direction="left">
+                <i class="fas fa-angle-left"></i>
+            </a>
+            <div class="navigation-container">
+                <ul class="navigation">
+                                                                                                                    <li class="navigation-item">
+                                <a class="navigation-link " href="#invitation-f98fb7cd-566f-4b67-a726-400e7e9620cf">
+                                    Einladung
+                                </a>
+                            </li>
+                                                                                                                                                                                        <li class="navigation-item">
+                                <a class="navigation-link " href="#locations-8c9e3ac3-bc3c-4536-9d5d-eb836ac047cd">
+                                    Locations
+                                </a>
+                            </li>
+                                                                                                                                                                                                                                                                                <li class="navigation-item">
+                                <a class="navigation-link " href="#rsvp-d56aaf9f-1257-4800-8b00-9d4bccf58e5b">
+                                    Rückmeldung
+                                </a>
+                            </li>
+                                                                                                <li class="navigation-item">
+                                <a class="navigation-link " href="#organizers-089da66b-53fa-4cb0-b36c-b80fa85c4219">
+                                    Organisatoren
+                                </a>
+                            </li>
+                                                                                                <li class="navigation-item">
+                                <a class="navigation-link " href="#wishes-d8da8d10-fb62-4ff7-8f11-2662525a7700">
+                                    Wünsche
+                                </a>
+                            </li>
+                                                                                                                                                                                                                                    <li class="navigation-item">
+                                <a class="navigation-link " href="#contact_data-e04120e2-9a36-498a-ae60-d778092f0a0d">
+                                    Kontaktdaten
+                                </a>
+                            </li>
+                                                                                                                                            <li class="navigation-item">
+                                <a class="navigation-link " href="#mail-6a23c4ed-d71c-4ebd-9b0c-a41372df6195">
+                                    Kontakt
+                                </a>
+                            </li>
+                                                                                                        </ul>
+            </div>
+            <a class="navigation-navigate" data-direction="right">
+                <i class="fas fa-angle-right"></i>
+            </a>
+                            <a href="?logout" class="logout-link" title="Logout">
+                    <i title="Logout" class="fas fa-sign-out-alt"></i>
+                </a>
+                    </div>
+    </nav>
+
+                                                <section class="section invitation-section" id="invitation-f98fb7cd-566f-4b67-a726-400e7e9620cf">
+    <div class="container">
+                    <div class="headline-font-wrapper">
+                <h2>
+                    Ihr seid herzlich eingeladen!
+                </h2>
+                                    <hr/>
+                            </div>
+                <div class="rich-text">Liebe Gäste,<br />
+<br />
+zu unserer Hochzeit am 22. August 2025 laden wir euch recht herzlich ein.<br />
+<br />
+Gebt uns doch bitte zeitnah Bescheid, ob ihr diesen Tag mit uns feiern wollt.<br />
+<br />
+Liebe Grüße,<br />
+Saskia und Dustin</div>
+    </div>
+</section>
+
+                                                                                        
+    
+<section class="section header-section" id="locations-8c9e3ac3-bc3c-4536-9d5d-eb836ac047cd">
+    <div class="container">
+        <div class="headline-font-wrapper">
+            <h2>Location</h2>
+        </div>
+                    <p class="subheading">
+                Hier findet ihr Details zu unserer Location sowie Anreise-Informationen.
+            </p>
+            </div>
+</section>
+
+
+<section class="section locations">
+            <div class="container">
+                                                        <ul class="location-list">
+                    <li class="location">
+                                    <a class="location-map" target="_blank" href="https://maps.google.com/?q=Reichenbach%2010%2C%2079348%20Freiamt">
+                        
+    
+            <div class="location-map-image hexagon">
+            <img src="/map?url=https://stadiamaps.com/static/osm_bright?api_key%3Dd02f48fb-8d8f-402f-adea-6771cf94bced%26center%3D48.1576780%252C7.9238391%26zoom%3D13%26size%3D256x256%25402x%26markers%3D48.1576780%252C7.9238391%252Ccustom%253Ahttps%253A%2F%2Fweddybird.com%2Fstatic%2Fmap%2Flocation%25402x.png&amp;usage=basic_homepage" alt="" loading="lazy" />
+        </div>
+                        </a>
+                                <div class="location-details">
+                    <h3 class="headline">
+                        Freie Trauung und Hochzeitsfeier
+                    </h3>
+                    <p class="subline">
+                        Freiämter Hof, 22. August 2025 um 14:00 Uhr                                            </p>
+                    <p class="description">
+                        
+                    </p>
+                                            <p class="url">
+                            <strong>Adresse:</strong>
+                            <a href="https://maps.google.com/?q=Reichenbach%2010%2C%2079348%20Freiamt" target="_blank">Reichenbach 10, 79348 Freiamt</a>
+                        </p>
+                                                                <p class="url">
+                            <strong>Website:</strong>
+                            <a href="https://freiaemterhof.de/" target="_blank">
+                                freiaemterhof.de/
+                            </a>
+                        </p>
+                                    </div>
+            </li>
+            </ul>
+        </div>
+    </section>
+
+                                                                                        
+<section id="quote-cc820831-c2b5-470f-8ecc-16971b1b73d1" class="section quote-section image-separator-section text-shadow" style="background-image: url(https://cdn.wbsrv.de/uploads/2025-04/af41d7c0-7165-499b-a091-867dcb34c3e5/cb8bef8c-4efc-4007-a978-e74b00b074a3.jpg); background-position: 50% 50%; ">
+        <div class="container">
+        <p class="quote large">
+            
+        </p>
+            </div>
+</section>
+
+                                                
+    
+<section class="section header-section" id="accommodations-835c2349-ce1c-4466-841b-d4c61673691b">
+    <div class="container">
+        <div class="headline-font-wrapper">
+            <h2>Unterkünfte</h2>
+        </div>
+                    <p class="subheading">
+                Sucht ihr nach einer Unterkunft in der Nähe? Wir haben euch die wichtigsten Anlaufstellen zusammengesucht.
+            </p>
+            </div>
+</section>
+
+
+<section class="section locations">
+            <div class="container">
+                                                        <ul class="location-list">
+                    <li class="location">
+                                    <a class="location-map" target="_blank" href="https://maps.google.com/?q=Brandelweg%201%2C%2079312%20Emmendingen%20-%20Maleck">
+                        
+    
+            <div class="location-map-image hexagon">
+            <img src="/map?url=https://stadiamaps.com/static/osm_bright?api_key%3Dd02f48fb-8d8f-402f-adea-6771cf94bced%26center%3D48.1290281%252C7.8853168%26zoom%3D13%26size%3D256x256%25402x%26markers%3D48.1290281%252C7.8853168%252Ccustom%253Ahttps%253A%2F%2Fweddybird.com%2Fstatic%2Fmap%2Flocation%25402x.png&amp;usage=basic_homepage" alt="" loading="lazy" />
+        </div>
+                        </a>
+                                <div class="location-details">
+                    <h3 class="headline">
+                        Hotel Krone
+                    </h3>
+                    <p class="description">
+                        Wir haben euch im Voraus 12 Zimmer reserviert. Um eines der Zimmer zu buchen, könnt ihr gerne unsere Namen und den Anlass nennen.
+                    </p>
+                                            <p class="url">
+                            <strong>Adresse:</strong>
+                            <a href="https://maps.google.com/?q=Brandelweg%201%2C%2079312%20Emmendingen%20-%20Maleck" target="_blank">Brandelweg 1, 79312 Emmendingen - Maleck</a>
+                        </p>
+                                                                <p class="url">
+                            <strong>Telefon:</strong>
+                            <a href="tel:076419309690" target="_blank">
+                                076419309690
+                            </a>
+                        </p>
+                                                                <p class="url">
+                            <strong>E-Mail:</strong>
+                            <a href="mailto:info@kronemaleck.de" target="_blank">
+                                info@kronemaleck.de
+                            </a>
+                        </p>
+                                                                <p class="url">
+                            <strong>Website:</strong>
+                            <a href="https://kronemaleck.de/" target="_blank">
+                                kronemaleck.de/
+                            </a>
+                        </p>
+                                    </div>
+            </li>
+                    <li class="location">
+                                    <a class="location-map" target="_blank" href="https://maps.google.com/?q=Reichenbach%2010%2C%2079348%20Freiamt">
+                        
+    
+            <div class="location-map-image hexagon">
+            <img src="/map?url=https://stadiamaps.com/static/osm_bright?api_key%3Dd02f48fb-8d8f-402f-adea-6771cf94bced%26center%3D48.1576780%252C7.9238391%26zoom%3D13%26size%3D256x256%25402x%26markers%3D48.1576780%252C7.9238391%252Ccustom%253Ahttps%253A%2F%2Fweddybird.com%2Fstatic%2Fmap%2Flocation%25402x.png&amp;usage=basic_homepage" alt="" loading="lazy" />
+        </div>
+                        </a>
+                                <div class="location-details">
+                    <h3 class="headline">
+                        Stellplatz für Bus und WoMo
+                    </h3>
+                    <p class="description">
+                        Kosten ca. 15 € pro Nacht
+                    </p>
+                                            <p class="url">
+                            <strong>Adresse:</strong>
+                            <a href="https://maps.google.com/?q=Reichenbach%2010%2C%2079348%20Freiamt" target="_blank">Reichenbach 10, 79348 Freiamt</a>
+                        </p>
+                                                                                                </div>
+            </li>
+            </ul>
+        </div>
+    </section>
+
+                                                
+    
+<section class="section header-section" id="rsvp-d56aaf9f-1257-4800-8b00-9d4bccf58e5b">
+    <div class="container">
+        <div class="headline-font-wrapper">
+            <h2>Rückmeldung</h2>
+        </div>
+                    <p class="subheading">
+                Bitte gebt uns eine Rückmeldung bis zum 30. Juni 2025.
+            </p>
+            </div>
+</section>
+
+
+<section class="section rsvp-section">
+            <div class="container">
+                                                        <div class="invitation_response-success alert alert-success text-center" style="display: none;">
+        Vielen Dank für deine Rückmeldung!<br/>
+                    Diese Hochzeitshomepage wurde mit <a target="_blank" href="https://weddybird.com/?ref=guest_response&utm_medium=wedding_page&utm_content=response">WeddyBird.com</a> erstellt.
+                <p>
+            <a id="invitation_response_clear" class="btn">Weitere Rückmeldung abgeben</a>
+        </p>
+    </div>
+    <form name="invitation_response" class="rsvp-form initializing needs-validation" novalidate action="/submit-failed" data-action="/api/rsvp" translations="{&quot;section.rsvp.form.error.choose_location&quot;:&quot;Bitte w\u00e4hle mindestens eine Location aus oder best\u00e4tige, dass du nicht kommen kannst.&quot;,&quot;section.rsvp.form.error.please_answer_question&quot;:&quot;Bitte beantworte die folgende Frage: {question}&quot;,&quot;section.rsvp.form.error.choose_number_of_guests&quot;:&quot;Bitte w\u00e4hle die Anzahl G\u00e4ste aus.&quot;,&quot;general.error.error_occurred_try_again_later&quot;:&quot;Es ist leider ein Fehler aufgetreten. Bitte versuche es sp\u00e4ter noch einmal.&quot;,&quot;general.error.not_logged_in&quot;:&quot;Du bist nicht (mehr) eingeloggt. Bitte lade die Seite neu, um dich erneut einzuloggen.&quot;,&quot;general.error.too_many_requests&quot;:&quot;Die Anfrage wurde zu oft wiederholt. Bitte versuche es sp\u00e4ter erneut.&quot;}">
+        <div class="data">
+            <div class="column">
+                <div class="form-group"> <input type="text" id="invitation_response_name" name="invitation_response[name]" required="required" placeholder="Vor- und Nachname" class="form-control" />  </div> 
+                                    <div class="form-group"> <input type="email" id="invitation_response_email" name="invitation_response[email]" placeholder="E-Mail (optional)" class="form-control" />  </div> 
+                                                    <div class="form-group"> <input type="text" id="invitation_response_phone" name="invitation_response[phone]" placeholder="Telefonnummer (optional)" class="form-control" />  </div> 
+                                                    <div class="form-group"> <input type="text" id="invitation_response_address" name="invitation_response[address]" placeholder="Postanschrift (optional)" class="form-control" />  </div> 
+                                
+                                            <div class="required form-group"> <select id="invitation_response_guests" name="invitation_response[guests]" required="required" class="form-control"><option value="" selected="selected">Anzahl Personen</option><option value="1">Eine Person</option><option value="2">2 Personen</option><option value="3">3 Personen</option><option value="4">4 Personen</option><option value="5">5 Personen</option><option value="6">6 Personen</option></select>  </div> 
+
+                            </div>
+
+                            <div class="column rsvp-response-status">
+                            <div class="required form-group"> <div id="invitation_response_responseType">    <div class="radio">
+                <input type="radio" id="invitation_response_responseType_0" name="invitation_response[responseType]" required="required" value="1" />
+        <label for="invitation_response_responseType_0" class="required" >
+            Hiermit sage ich zu
+        </label>
+    </div>
+    <div class="radio">
+                <input type="radio" id="invitation_response_responseType_1" name="invitation_response[responseType]" required="required" value="0" />
+        <label for="invitation_response_responseType_1" class="required" >
+            Ich kann leider nicht kommen
+        </label>
+    </div>
+</div>  </div> 
+
+
+                                    </div>
+                    </div>
+
+        
+                    <div class="form-group"> <textarea id="invitation_response_remark" name="invitation_response[remark]" placeholder="Wie sind die Namen der geladenen Gäste? Hast du noch Anmerkungen oder Wünsche? Gibt es beim Essen etwas, das wir beachten sollten (z. B. vegetarisch oder Unverträglichkeiten)? Lass es uns wissen und hilf uns bei der Planung! (optional)" class="form-control"></textarea>  </div> 
+        
+        <div class="terms-checkbox">
+            <div class="form-group">    <div class="checkbox">
+                <input type="checkbox" id="invitation_response_acceptPrivacy" name="invitation_response[acceptPrivacy]" required="required" value="1" />
+        <label for="invitation_response_acceptPrivacy" class="required" >
+            Hiermit akzeptiere ich die <a target="_blank" rel="nofollow" href="/datenschutz">Datenschutzbestimmungen</a>.
+        </label>
+    </div>
+</div>
+        </div>
+
+        <div class="form-group">
+            <button type="button" name="invitation" class="btn btn-block submit-button">
+                Rückmeldung absenden
+            </button>
+        </div>
+        <div class="form-group"> <input type="text" id="invitation_response_website_hp" name="invitation_response[website_hp]" class="the-hp-field form-control" autocomplete="new-password" />  </div> 
+    </form>
+        </div>
+    </section>
+
+                                                
+    
+<section class="section header-section" id="organizers-089da66b-53fa-4cb0-b36c-b80fa85c4219">
+    <div class="container">
+        <div class="headline-font-wrapper">
+            <h2>Unser Organisationsteam</h2>
+        </div>
+            </div>
+</section>
+
+
+<section class="section organizers-section">
+            <div class="container">
+                                                        <ul class="organizers even">
+                    <li class="organizer">
+                                <p class="name">Hanna Heidenreich</p>
+                <p class="function">Trauzeugin</p>
+                <p class="contact">
+                                                                <i class="fas fa-phone" aria-hidden="true"></i> <a href="tel:015202729381">015202729381</a><br />
+                                    </p>
+                <p class="description">
+                    
+                </p>
+            </li>
+                    <li class="organizer">
+                                <p class="name">Christian Oevermann</p>
+                <p class="function">Trauzeuge</p>
+                <p class="contact">
+                                                                <i class="fas fa-phone" aria-hidden="true"></i> <a href="tel:017632508677">017632508677</a><br />
+                                    </p>
+                <p class="description">
+                    
+                </p>
+            </li>
+            </ul>
+        </div>
+    </section>
+
+                                                
+    
+<section class="section header-section" id="wishes-d8da8d10-fb62-4ff7-8f11-2662525a7700">
+    <div class="container">
+        <div class="headline-font-wrapper">
+            <h2>Wünsche</h2>
+        </div>
+            </div>
+</section>
+
+
+<section class="section wishes-section">
+            <div class="container">
+                            <p class="section-introduction">
+            Das größte Geschenk von allen ist für uns, diesen wundervollen Tag mit euch zusammen zu feiern. Wenn ihr uns etwas schenken möchtet, bedenkt:<br />
+Geschenke tragen ist sehr schwer, drum nehmen wir auch gern ein Kuvert.<br />
+
+        </p>
+                    <ul class="wishlist">
+            </ul>
+        </div>
+    </section>
+
+                                                                                                            
+<section id="contact_data-e04120e2-9a36-498a-ae60-d778092f0a0d" class="section image-separator-section contact-data-section text-shadow" style="background-image: url(https://cdn.wbsrv.de/uploads/2025-04/af41d7c0-7165-499b-a091-867dcb34c3e5/cb8bef8c-4efc-4007-a978-e74b00b074a3.jpg); background-position: 50% 50%; ">
+        <div class="container">
+                            <div class="mail">
+                <span class="content">
+                    <a href="mailto:dustindillenkofer@outlook.com">dustindillenkofer@outlook.com</a>
+                </span>
+            </div>
+                    </div>
+</section>
+
+                                                                    
+    
+<section class="section header-section" id="mail-6a23c4ed-d71c-4ebd-9b0c-a41372df6195">
+    <div class="container">
+        <div class="headline-font-wrapper">
+            <h2>Kontakt</h2>
+        </div>
+                    <p class="subheading">
+                Hast du noch eine Frage oder möchtest uns einfach einmal &quot;Hallo&quot; sagen? Schreib uns!
+            </p>
+            </div>
+</section>
+
+
+<section class="section mail-section">
+            <div class="container">
+                                                        <div class="mail-success alert alert-success text-center" style="display: none;">
+        Vielen Dank für deine Nachricht!<br/>
+
+                    Diese Hochzeitshomepage wurde mit <a target="_blank" href="https://weddybird.com/?ref=guest_response&utm_medium=wedding_page&utm_content=response">WeddyBird.com</a> erstellt.
+            </div>
+
+    <form name="mail" class="mail-form initializing needs-validation" novalidate action="/submit-failed" data-action="/api/mail" translations="{&quot;general.error.error_occurred_try_again_later&quot;:&quot;Es ist leider ein Fehler aufgetreten. Bitte versuche es sp\u00e4ter noch einmal.&quot;,&quot;general.error.not_logged_in&quot;:&quot;Du bist nicht (mehr) eingeloggt. Bitte lade die Seite neu, um dich erneut einzuloggen.&quot;,&quot;general.error.too_many_requests&quot;:&quot;Die Anfrage wurde zu oft wiederholt. Bitte versuche es sp\u00e4ter erneut.&quot;}">
+        <div class="data">
+            <div class="column">
+                <div class="form-group"> <input type="text" id="mail_name" name="mail[name]" required="required" placeholder="Vor- und Nachname" class="form-control" />  </div> 
+                <div class="form-group"> <input type="email" id="mail_email" name="mail[email]" placeholder="E-Mail-Adresse (optional)" class="form-control" />  </div> 
+                <div class="form-group"> <input type="text" id="mail_subject" name="mail[subject]" required="required" placeholder="Betreff" class="form-control" />  </div> 
+            </div>
+            <div class="column">
+                <div class="form-group"> <textarea id="mail_text" name="mail[text]" required="required" placeholder="Deine Nachricht an uns" class="form-control"></textarea>  </div> 
+            </div>
+        </div>
+
+        <div class="terms-checkbox">
+            <div class="form-group">    <div class="checkbox">
+                <input type="checkbox" id="mail_acceptPrivacy" name="mail[acceptPrivacy]" required="required" value="1" />
+        <label for="mail_acceptPrivacy" class="required" >
+            Hiermit akzeptiere ich die <a target="_blank" rel="nofollow" href="/datenschutz">Datenschutzbestimmungen</a>.
+        </label>
+    </div>
+</div>
+        </div>
+
+        <div class="form-group">
+            <input type="button" name="invitation" class="btn btn-block submit-button" value="Senden">
+        </div>
+        <div class="form-group"> <input type="text" id="mail_website_hp" name="mail[website_hp]" class="the-hp-field form-control" autocomplete="new-password" />  </div> 
+    </form>
+        </div>
+    </section>
+
+                                                <footer class="section footer-section bg-primary-color">
+    <div class="container headline-font-wrapper">
+        <div class="footer-text">
+            Wir freuen uns auf diesen besonderen Tag mit euch!
+        </div>
+    </div>
+</footer>
+
+                        </section>
+
+        <script src="/client/weddybird/wedding-page.js?372252333587d6f09e1f" nonce="QuuBB/rXd7QnOYE3MzHuJQ=="></script>
+    </body>
 </html>
