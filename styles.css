@@ -72,7 +72,7 @@ nav {
     background-color: #FFF0F5; /* Lavendelblütenfarbe für den Countdown-Bereich */
     margin: 20px;
     border-radius: 8px;
-    text-align: center;
+    text-align: center; /* Countdown mittig ausrichten */
 }
 
 .locations {
