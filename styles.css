@@ -62,7 +62,7 @@ nav {
 
 .einladung {
     padding: 20px;
-    background-color: #FFF0F5; /* Lavendelblütenfarbe für den Einladungstext */
+    background-color: white; /* Hintergrundfarbe für den Einladungstext auf Weiß geändert */
     margin: 20px;
     border-radius: 8px;
     text-align: center; /* Einladungstext mittig ausrichten */
@@ -81,6 +81,7 @@ nav {
     padding: 10px;
     border-radius: 8px;
     margin-top: 10px; /* Abstand zwischen Banner und Timer */
+    text-align: center; /* Countdown-Informationen mittig ausrichten */
 }
 
 .locations {
