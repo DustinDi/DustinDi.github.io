@@ -1,6 +1,6 @@
 body {
     font-family: Arial, sans-serif;
-    background-color: #E0B0FF; /* Amethyst/Mauve Hintergrundfarbe */
+    background-color: #EAB8E4; /* Amethyst/Mauve Hintergrundfarbe */
     margin: 0;
     padding: 0;
     color: #4B0082; /* Dunkelviolett für den Text */
@@ -35,7 +35,7 @@ nav {
 .hero {
     position: relative;
     text-align: center;
-    margin: 20px 0;
+    margin: 0;
 }
 
 .hero img {
