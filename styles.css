@@ -1,6 +1,6 @@
 body {
     font-family: Arial, sans-serif;
-    background-color: #EAB8E4; /* Amethyst/Mauve Hintergrundfarbe */
+    background-color: white; /* Hintergrundfarbe auf Weiß gesetzt */
     margin: 0;
     padding: 0;
     color: #4B0082; /* Dunkelviolett für den Text */
@@ -69,7 +69,7 @@ nav {
 
 .countdown {
     padding: 20px;
-    background-color: #FFF0F5; /* Lavendelblütenfarbe für den Countdown-Bereich */
+    background-color: #EAB8E4; /* Mauve Farbe für den Countdown-Bereich */
     margin: 20px;
     border-radius: 8px;
     text-align: center; /* Countdown mittig ausrichten */
@@ -77,7 +77,7 @@ nav {
 
 .locations {
     padding: 20px;
-    background-color: #FFF0F5; /* Lavendelblütenfarbe für den Locations-Bereich */
+    background-color: #EAB8E4; /* Mauve Farbe für den Locations-Bereich */
     margin: 20px;
     border-radius: 8px;
 }
