@@ -7,7 +7,7 @@ body {
 }
 
 header {
-    background-color: #6A5ACD; /* Dunklerer Farbton für den Header */
+    background-color: #EAB8E4; /* Navigationsbanner-Farbe auf Mauve gesetzt */
     padding: 10px 20px;
 }
 
@@ -65,6 +65,7 @@ nav {
     background-color: #FFF0F5; /* Lavendelblütenfarbe für den Einladungstext */
     margin: 20px;
     border-radius: 8px;
+    text-align: center; /* Einladungstext mittig ausrichten */
 }
 
 .countdown {
@@ -80,4 +81,5 @@ nav {
     background-color: #EAB8E4; /* Mauve Farbe für den Locations-Bereich */
     margin: 20px;
     border-radius: 8px;
+    text-align: center; /* Locationstext mittig ausrichten */
 }
