@@ -1,7 +1,47 @@
 <!DOCTYPE html>
-<html>
+<html lang="de">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Unsere Hochzeit</title>
+    <link rel="stylesheet" href="styles.css">
+</head>
 <body>
-<h1>Hello World</h1>
-<p>I'm hosted with GitHub Pages.</p>
+    <header>
+        <h1>Willkommen zu unserer Hochzeit!</h1>
+    </header>
+    
+    <section id="details">
+        <h2>Details zur Hochzeit</h2>
+        <p>Datum: 20. August 2023</p>
+        <p>Ort: Schloss Musterdorf</p>
+    </section>
+
+    <section id="schedule">
+        <h2>Zeitplan</h2>
+        <ul>
+            <li>15:00 - Zeremonie</li>
+            <li>16:00 - Empfang</li>
+            <li>18:00 - Abendessen</li>
+        </ul>
+    </section>
+
+    <section id="rsvp">
+        <h2>RSVP</h2>
+        <form action="submit_rsvp.php" method="post">
+            <label for="name">Name:</label>
+            <input type="text" id="name" name="name" required>
+            <label for="attending">Kommst du?</label>
+            <select id="attending" name="attending">
+                <option value="yes">Ja</option>
+                <option value="no">Nein</option>
+            </select>
+            <button type="submit">Absenden</button>
+        </form>
+    </section>
+
+    <footer>
+        <p>&copy; 2023 Unsere Hochzeit</p>
+    </footer>
 </body>
 </html>
