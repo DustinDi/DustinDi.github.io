@@ -117,6 +117,21 @@ nav {
     height: auto;
 }
 
+.tagesablauf {
+    padding: 20px;
+    background-color: #EAB8E4; /* Mauve Farbe für den Tagesablauf-Bereich */
+    margin: 20px;
+    border-radius: 8px;
+    text-align: center; /* Tagesablauf mittig ausrichten */
+}
+
+.tagesablauf-info {
+    background-color: white; /* Hintergrundfarbe für die Informationen auf Weiß setzen */
+    padding: 15px;
+    border-radius: 8px;
+    margin-top: 10px; /* Abstand zwischen Banner und Informationen */
+}
+
 @media (max-width: 600px) {
     .nav-right .hamburger {
         display: block; /* Hamburger-Symbol anzeigen */
