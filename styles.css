@@ -167,6 +167,25 @@ nav {
     background-color: #D8A1C1; /* Dunklere Farbe beim Hover */
 }
 
+.organisationsteam {
+    padding: 20px;
+    background-color: #EAB8E4; /* Mauve Farbe für das Organisationsteam-Banner */
+    margin: 20px;
+    border-radius: 8px;
+    text-align: center; /* Organisationsteam-Banner mittig ausrichten */
+}
+
+.organisation-info {
+    display: flex; /* Flexbox für die Informationen */
+    justify-content: center; /* Mittig ausrichten */
+    margin: 20px 0; /* Abstand oben und unten */
+}
+
+.organisation-info div {
+    text-align: center; /* Text in den Informationsboxen mittig ausrichten */
+    margin-right: 40px; /* Abstand zwischen den Boxen */
+}
+
 @media (max-width: 600px) {
     .nav-right .hamburger {
         display: block; /* Hamburger-Symbol anzeigen */
