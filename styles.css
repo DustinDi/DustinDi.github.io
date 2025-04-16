@@ -128,7 +128,6 @@ nav {
 .tagesablauf-info {
     background-color: white; /* Hintergrundfarbe für die Informationen auf Weiß setzen */
     padding: 15px;
-    border-radius: 8px;
     margin-top: 10px; /* Abstand zwischen Banner und Informationen */
     text-align: center; /* Tagesablauf mittig ausrichten */
 }
