@@ -24,6 +24,17 @@ nav {
 
 .nav-right {
     display: flex; /* Flexbox für die Navigation */
+    align-items: center;
+}
+
+.nav-right .hamburger {
+    display: none; /* Standardmäßig ausblenden */
+    font-size: 2rem; /* Größe des Hamburger-Symbols */
+    cursor: pointer; /* Zeiger ändern */
+}
+
+.nav-links {
+    display: flex; /* Flexbox für die Links */
 }
 
 .nav-right a {
@@ -107,6 +118,29 @@ nav {
 }
 
 @media (max-width: 600px) {
+    .nav-right .hamburger {
+        display: block; /* Hamburger-Symbol anzeigen */
+    }
+
+    .nav-links {
+        display: none; /* Links standardmäßig ausblenden */
+        flex-direction: column; /* Links untereinander anordnen */
+        position: absolute; /* Positionierung für Dropdown */
+        background-color: #EAB8E4; /* Hintergrundfarbe für Dropdown */
+        width: 100%; /* Breite auf 100% setzen */
+        top: 60px; /* Positionierung unter dem Header */
+        left: 0;
+        z-index: 1000; /* Über anderen Elementen anzeigen */
+    }
+
+    .nav-links.active {
+        display: flex; /* Links anzeigen, wenn aktiv */
+    }
+
+    .nav-right a {
+        margin: 10px 0; /* Abstand zwischen Links */
+    }
+
     .location-info {
         flex-direction: column; /* Elemente untereinander anordnen */
         align-items: center; /* Elemente zentrieren */

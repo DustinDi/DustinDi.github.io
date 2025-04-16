@@ -20,13 +20,16 @@
         <nav>
             <div class="nav-left">Saskia & Dustin</div>
             <div class="nav-right">
-                <a href="#einladung">Einladung</a>
-                <a href="#locations">Locations</a>
-                <a href="#tagesablauf">Tagesablauf</a>
-                <a href="#unterkuenfte">Unterkünfte</a>
-                <a href="#rueckmeldung">Rückmeldung</a>
-                <a href="#organisatoren">Organisatoren</a>
-                <a href="#faq">FAQ</a>
+                <div class="hamburger" onclick="toggleMenu()">&#9776;</div> <!-- Hamburger-Symbol -->
+                <div class="nav-links">
+                    <a href="#einladung">Einladung</a>
+                    <a href="#locations">Locations</a>
+                    <a href="#tagesablauf">Tagesablauf</a>
+                    <a href="#unterkuenfte">Unterkünfte</a>
+                    <a href="#rueckmeldung">Rückmeldung</a>
+                    <a href="#organisatoren">Organisatoren</a>
+                    <a href="#faq">FAQ</a>
+                </div>
             </div>
         </nav>
     </header>
@@ -43,7 +46,7 @@
     <section class="countdown">
         <h2>Countdown</h2>
     </section>
-<div id="countdown-timer" class="countdown-timer" style="text-align: center;"></div> <!-- Textausrichtung hier hinzugefügt -->
+    <div id="countdown-timer" class="countdown-timer" style="text-align: center;"></div>
 
     <section id="locations" class="locations">
         <h2>Locations</h2>
@@ -89,6 +92,12 @@
         };
 
         const interval = setInterval(updateCountdown, 1000);
+
+        // Hamburger Menü Funktion
+        function toggleMenu() {
+            const navLinks = document.querySelector('.nav-links');
+            navLinks.classList.toggle('active');
+        }
     </script>
 </body>
 </html>
