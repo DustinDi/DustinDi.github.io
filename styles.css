@@ -18,8 +18,12 @@ nav {
 }
 
 .nav-left {
-    font-size: 4vw; /* Schriftgröße für den Navigationsbanner in vw */
+    font-size: 3vw; /* Schriftgröße für den Navigationsbanner in vw */
     font-weight: bold;
+}
+
+.nav-right {
+    display: flex; /* Flexbox für die Navigation */
 }
 
 .nav-right a {
