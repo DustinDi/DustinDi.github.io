@@ -133,6 +133,14 @@ nav {
     text-align: center; /* Tagesablauf mittig ausrichten */
 }
 
+.unterkuenfte {
+    padding: 20px;
+    background-color: #EAB8E4; /* Mauve Farbe für das Unterkünfte-Banner */
+    margin: 20px;
+    border-radius: 8px;
+    text-align: center; /* Unterkünfte-Banner mittig ausrichten */
+}
+
 .rueckmeldung {
     padding: 20px;
     background-color: #EAB8E4; /* Mauve Farbe für das Rückmeldungs-Banner */
