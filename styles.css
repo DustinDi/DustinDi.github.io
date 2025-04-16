@@ -18,7 +18,7 @@ nav {
 }
 
 .nav-left {
-    font-size: 24px;
+    font-size: 4vw; /* Schriftgröße für den Navigationsbanner in vw */
     font-weight: bold;
 }
 
@@ -26,6 +26,7 @@ nav {
     margin-left: 20px;
     color: white;
     text-decoration: none;
+    font-size: 2vw; /* Schriftgröße für Links in vw */
 }
 
 .nav-right a:hover {
@@ -39,8 +40,8 @@ nav {
 }
 
 .hero img {
-    width: 66.67%; /* Bild um ca. 1/3 verkleinert */
-    height: auto;
+    width: 100%; /* Bild auf volle Breite setzen */
+    height: auto; /* Höhe automatisch anpassen */
 }
 
 .hero-text {
@@ -53,11 +54,11 @@ nav {
 }
 
 .hero-text h1 {
-    font-size: 4rem; /* Schriftgröße für den Haupttitel verdoppelt */
+    font-size: 6vw; /* Schriftgröße für den Haupttitel in vw */
 }
 
 .hearts {
-    font-size: 24px;
+    font-size: 4vw; /* Schriftgröße für Herzen in vw */
 }
 
 .einladung {
@@ -112,5 +113,21 @@ nav {
 
     .location-info p {
         font-size: 14px; /* Schriftgröße für mobile Geräte anpassen */
+    }
+
+    .nav-left {
+        font-size: 5vw; /* Schriftgröße für den Navigationsbanner in vw für mobile Geräte */
+    }
+
+    .nav-right a {
+        font-size: 3vw; /* Schriftgröße für Links in vw für mobile Geräte */
+    }
+
+    .hero-text h1 {
+        font-size: 8vw; /* Schriftgröße für den Haupttitel in vw für mobile Geräte */
+    }
+
+    .hearts {
+        font-size: 5vw; /* Schriftgröße für Herzen in vw für mobile Geräte */
     }
 }
