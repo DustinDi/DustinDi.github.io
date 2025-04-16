@@ -86,6 +86,7 @@ nav {
     padding: 10px;
     border-radius: 8px;
     margin-top: 10px; /* Abstand zwischen Banner und Timer */
+    text-align: center; /* Sicherstellen, dass der Timer auch mittig ist */
 }
 
 .locations {
