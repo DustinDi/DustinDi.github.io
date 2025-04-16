@@ -81,7 +81,6 @@ nav {
     padding: 10px;
     border-radius: 8px;
     margin-top: 10px; /* Abstand zwischen Banner und Timer */
-    text-align: center; /* Countdown-Informationen mittig ausrichten */
 }
 
 .locations {
@@ -92,14 +91,26 @@ nav {
     text-align: center; /* Locationstext mittig ausrichten */
 }
 
-.locations p {
-    margin: 0; /* Kein Margin für den Text unter Locations */
+.location-info {
+    text-align: center; /* Standortinformationen mittig ausrichten */
 }
 
-.location-info {
-    background-color: white; /* Hintergrund für die Standortinformationen auf Weiß */
-    padding: 20px;
-    margin: 20px;
-    border-radius: 8px;
-    text-align: center; /* Standortinformationen mittig ausrichten */
+.location-info img {
+    width: 80px; /* Bildgröße für Google Maps */
+    height: auto;
+}
+
+@media (max-width: 600px) {
+    .location-info {
+        flex-direction: column; /* Elemente untereinander anordnen */
+        align-items: center; /* Elemente zentrieren */
+    }
+
+    .location-info img {
+        width: 60px; /* Bildgröße für mobile Geräte anpassen */
+    }
+
+    .location-info p {
+        font-size: 14px; /* Schriftgröße für mobile Geräte anpassen */
+    }
 }
