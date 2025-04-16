@@ -132,6 +132,14 @@ nav {
     margin-top: 10px; /* Abstand zwischen Banner und Informationen */
 }
 
+.rueckmeldung {
+    padding: 20px;
+    background-color: #EAB8E4; /* Mauve Farbe für das Rückmeldungs-Banner */
+    margin: 20px;
+    border-radius: 8px;
+    text-align: center; /* Rückmeldungs-Banner mittig ausrichten */
+}
+
 .tally-survey {
     text-align: center; /* Umfrage mittig ausrichten */
     margin: 20px 0; /* Abstand oben und unten */
