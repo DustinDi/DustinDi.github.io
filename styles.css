@@ -133,6 +133,17 @@ nav {
     text-align: center; /* Locationstext mittig ausrichten */
 }
 
+.nav-right a {
+    margin-left: 20px;
+    color: white;
+    text-decoration: none;
+    font-size: 2vw; /* Schriftgröße für Links in vw */
+}
+
+.nav-right a:hover {
+    text-decoration: underline; /* Unterstreichen beim Hover */
+}
+
 @media (max-width: 600px) {
     .nav-right .hamburger {
         display: block; /* Hamburger-Symbol anzeigen */
