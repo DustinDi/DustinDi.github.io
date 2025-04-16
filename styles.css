@@ -45,7 +45,7 @@ nav {
 }
 
 .nav-right a:hover {
-    text-decoration: underline;
+    text-decoration: underline; /* Unterstreichen beim Hover */
 }
 
 .hero {
@@ -130,18 +130,25 @@ nav {
     padding: 15px;
     border-radius: 8px;
     margin-top: 10px; /* Abstand zwischen Banner und Informationen */
-    text-align: center; /* Locationstext mittig ausrichten */
 }
 
-.nav-right a {
-    margin-left: 20px;
-    color: white;
-    text-decoration: none;
-    font-size: 2vw; /* Schriftgröße für Links in vw */
+.tally-survey {
+    text-align: center; /* Umfrage mittig ausrichten */
+    margin: 20px 0; /* Abstand oben und unten */
 }
 
-.nav-right a:hover {
-    text-decoration: underline; /* Unterstreichen beim Hover */
+.tally-survey button {
+    padding: 10px 20px; /* Polsterung für den Button */
+    font-size: 16px; /* Schriftgröße für den Button */
+    background-color: #EAB8E4; /* Hintergrundfarbe für den Button */
+    color: white; /* Textfarbe für den Button */
+    border: none; /* Keine Rahmenlinie */
+    border-radius: 5px; /* Abgerundete Ecken */
+    cursor: pointer; /* Zeiger ändern beim Hover */
+}
+
+.tally-survey button:hover {
+    background-color: #D8A1C1; /* Dunklere Farbe beim Hover */
 }
 
 @media (max-width: 600px) {
