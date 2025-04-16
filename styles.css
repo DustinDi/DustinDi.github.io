@@ -130,6 +130,7 @@ nav {
     padding: 15px;
     border-radius: 8px;
     margin-top: 10px; /* Abstand zwischen Banner und Informationen */
+    text-align: center; /* Locationstext mittig ausrichten */
 }
 
 @media (max-width: 600px) {
