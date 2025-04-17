@@ -116,22 +116,68 @@
         <h2>Unser Organisationsteam</h2>
     </section>
     
-  <div class="organisation-info" style="display: flex; justify-content: center; margin: 20px;">
-    <div style="text-align: center; margin-right: 40px;">
-        <img src="images/Trauzeugin.jpg" alt="Trauzeugin" class="team-member-image"> <!-- Bild für Trauzeugin -->
-        <p>Hanna Heidenreich<br>
-        Trauzeugin<br>
-        📞 015202729381</p>
+    <div class="organisation-info" style="display: flex; justify-content: center; margin: 20px;">
+        <div style="text-align: center; margin-right: 40px;">
+            <img src="images/Trauzeugin.jpg" alt="Trauzeugin" class="team-member-image"> <!-- Bild für Trauzeugin -->
+            <p>Hanna Heidenreich<br>
+            Trauzeugin<br>
+            📞 015202729381</p>
+        </div>
+        <div style="text-align: center;">
+            <img src="images/Trauzeuge.jpg" alt="Trauzeuge" class="team-member-image"> <!-- Bild für Trauzeuge -->
+            <p>Christian Oevermann<br>
+            Trauzeuge<br>
+            📞 017632508677</p>
+        </div>
     </div>
-    <div style="text-align: center;">
-        <img src="images/Trauzeuge.jpg" alt="Trauzeuge" class="team-member-image"> <!-- Bild für Trauzeuge -->
-        <p>Christian Oevermann<br>
-        Trauzeuge<br>
-        📞 017632508677</p>
+
+    <section class="faq">
+        <h2>FAQ</h2>
+        <p>Hier findest du häufig gestellte Fragen und die passenden Antworten dazu.</p>
+    </section>
+
+    <div class="faq-item">
+        <div class="faq-question" onclick="toggleAnswer(this)">
+            > Dürfen wir während der Trauung Fotos machen?
+        </div>
+        <div class="faq-answer">
+            Ja, das könnt ihr gerne machen. Es ist aber auch eine professionelle Fotografin vor Ort.
+        </div>
     </div>
-</div>
+
+    <div class="faq-item">
+        <div class="faq-question" onclick="toggleAnswer(this)">
+            > Gibt es einen besonderen Dresscode?
+        </div>
+        <div class="faq-answer">
+            Nein, ihr könnt anziehen, was ihr wollt. Hauptsache ihr fühlt euch wohl.
+        </div>
+    </div>
+
+    <div class="faq-item">
+        <div class="faq-question" onclick="toggleAnswer(this)">
+            > Gibt es Übernachtungsmöglichkeiten?
+        </div>
+        <div class="faq-answer">
+            Ja, in der Nähe (Emmendingen) gibt es das Hotel Krone. Wir haben im Vorfeld 12 Zimmer reserviert. Alternativ kann man auch mit dem Bus oder Wohnmobil direkt vor der Hochzeitslocation (Freiämter Hof) einen Stellplatz für ca. 15 € pro Nacht mieten.
+        </div>
+    </div>
+
+    <div class="faq-item">
+        <div class="faq-question" onclick="toggleAnswer(this)">
+            > Wo kann man Parken?
+        </div>
+        <div class="faq-answer">
+            Rechts neben der Hochzeitslocation (Richtung Wald) gibt es einen großen Parkplatz. Hier kann man kostenlos parken.
+        </div>
+    </div>
 
     <script>
+        function toggleAnswer(question) {
+            const answer = question.nextElementSibling;
+            answer.style.display = answer.style.display === "none" || answer.style.display === "" ? "block" : "none";
+        }
+
         // Countdown-Funktion
         const weddingDate = new Date("2025-08-22T00:00:00").getTime();
         const countdownTimer = document.getElementById("countdown-timer");
