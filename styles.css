@@ -186,6 +186,11 @@ nav {
     margin-right: 40px; /* Abstand zwischen den Boxen */
 }
 
+.organisation-info img {
+    width: 100px; /* Breite der Bilder anpassen */
+    height: auto; /* Höhe automatisch anpassen */
+}
+
 @media (max-width: 600px) {
     .nav-right .hamburger {
         display: block; /* Hamburger-Symbol anzeigen */
