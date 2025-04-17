@@ -245,8 +245,8 @@ nav {
 }
 
 .slider-img {
-    width: 80%; /* Breite der Bilder anpassen (nicht so groß wie das Verlobungsbild) */
-    max-width: 600px; /* Maximalbreite für die Bilder */
+    width: 66.67%; /* Breite der Bilder auf 2/3 der Originalgröße setzen */
+    max-width: 400px; /* Maximalbreite für die Bilder */
     height: auto; /* Höhe automatisch anpassen */
     display: none; /* Standardmäßig ausblenden */
 }
