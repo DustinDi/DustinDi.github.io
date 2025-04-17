@@ -191,6 +191,13 @@ nav {
     height: auto; /* Höhe automatisch anpassen */
 }
 
+.team-member-image {
+    width: 100px; /* Feste Breite für beide Bilder */
+    height: 100px; /* Feste Höhe für beide Bilder */
+    object-fit: cover; /* Bild zuschneiden, um das Seitenverhältnis beizubehalten */
+    border-radius: 50%; /* Runde Bilder, falls gewünscht */
+}
+
 @media (max-width: 600px) {
     .nav-right .hamburger {
         display: block; /* Hamburger-Symbol anzeigen */
