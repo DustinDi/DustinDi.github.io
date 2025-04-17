@@ -84,8 +84,14 @@ nav {
 }
 
 .hero-text h1 {
+    font-family: 'Playfair Display', serif; /* Schriftart für den Titel */
     font-size: 6vw; /* Schriftgröße für den Haupttitel in vw */
     white-space: nowrap; /* Verhindert Zeilenumbruch */
+}
+
+.hero-text p {
+    font-family: 'Montserrat', sans-serif; /* Schriftart für den Untertitel */
+    font-weight: 300; /*Schriftart für den Haupttitel */
 }
 
 .hearts {
