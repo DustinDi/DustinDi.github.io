@@ -101,6 +101,18 @@ nav {
     text-align: center; /* Einladungstext mittig ausrichten */
 }
 
+.image-slider {
+    text-align: center; /* Bilder mittig ausrichten */
+    margin: 20px 0; /* Abstand oben und unten */
+}
+
+.slider-img {
+    width: 66.67%; /* Breite der Bilder auf 2/3 der Originalgröße setzen */
+    max-width: 400px; /* Maximalbreite für die Bilder */
+    height: auto; /* Höhe automatisch anpassen */
+    display: none; /* Standardmäßig ausblenden */
+}
+
 .countdown {
     padding: 20px;
     background-color: #EAB8E4; /* Mauve Farbe für den Countdown-Bereich */
@@ -237,18 +249,6 @@ nav {
     border-radius: 5px;
     margin-top: 5px; /* Abstand zwischen Frage und Antwort */
     text-align: center; /* Antworten mittig ausrichten */
-}
-
-.image-slider {
-    text-align: center; /* Bilder mittig ausrichten */
-    margin: 20px 0; /* Abstand oben und unten */
-}
-
-.slider-img {
-    width: 66.67%; /* Breite der Bilder auf 2/3 der Originalgröße setzen */
-    max-width: 400px; /* Maximalbreite für die Bilder */
-    height: auto; /* Höhe automatisch anpassen */
-    display: none; /* Standardmäßig ausblenden */
 }
 
 @media (max-width: 600px) {
