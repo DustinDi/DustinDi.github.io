@@ -18,7 +18,7 @@ nav {
 }
 
 .nav-left {
-    font-size: 2.5rem; /* Schriftgröße für den Navigationsbanner anpassen */
+    font-size: 1.5rem; /* Schriftgröße für den Navigationsbanner anpassen, gleich wie die Links */
     font-weight: bold;
 }
 
@@ -260,7 +260,7 @@ nav {
     }
 
     .nav-left {
-        font-size: 2.5rem; /* Schriftgröße für den Navigationsbanner anpassen */
+        font-size: 1.5rem; /* Schriftgröße für den Navigationsbanner anpassen, gleich wie die Links */
     }
 
     .nav-right a {
