@@ -73,13 +73,14 @@ nav {
     display: flex;
     align-items: center; /* Vertikale Ausrichtung der Elemente */
     justify-content: center; /* Horizontale Ausrichtung der Elemente */
+    margin-top: 10px; /* Abstand zwischen Titel und Unterstreichung */
 }
 
 .line {
     flex: 1; /* Linien nehmen den verfügbaren Platz ein */
     height: 2px; /* Höhe der Linie */
     background-color: white; /* Farbe der Linie */
-    margin: 0 10px; /* Abstand zwischen Linie und Text */
+    margin: 0 10px; /* Abstand zwischen Linie und Herzen */
 }
 
 .hero-text h1 {
