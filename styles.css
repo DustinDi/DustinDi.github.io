@@ -169,51 +169,6 @@ nav {
     text-align: center; /* Tagesablauf mittig ausrichten */
 }
 
-.timeline {
-    position: relative;
-    padding: 20px 0; /* Abstand oben und unten */
-}
-
-.timeline-item {
-    display: flex;
-    align-items: center;
-    justify-content: center;
-    position: relative;
-    margin: 20px 0; /* Abstand zwischen den Aktivitäten */
-}
-
-.time {
-    font-weight: bold; /* Fett für die Zeit */
-    margin-right: 20px; /* Abstand zwischen Zeit und Aktivität */
-}
-
-.activity {
-    display: flex;
-    align-items: center; /* Vertikale Ausrichtung der Aktivität */
-}
-
-.activity-img {
-    width: 50px; /* Breite der Aktivitätsbilder */
-    height: auto; /* Höhe automatisch anpassen */
-    margin-right: 10px; /* Abstand zwischen Bild und Text */
-}
-
-.timeline-item::before {
-    content: '';
-    position: absolute;
-    left: 50%;
-    top: 20px; /* Positionierung der Linie */
-    height: 100%; /* Höhe der Linie */
-    width: 2px; /* Breite der Linie */
-    background-color: white; /* Farbe der Linie */
-    transform: translateX(-50%); /* Zentrierung der Linie */
-}
-
-.timeline-item:first-child::before {
-    display: none; /* Keine Linie für das erste Element */
-}
-
-
 .unterkuenfte {
     padding: 20px;
     background-color: #EAB8E4; /* Mauve Farbe für das Unterkünfte-Banner */
