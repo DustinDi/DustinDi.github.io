@@ -89,6 +89,7 @@ nav {
 
 .hearts {
     font-size: 4vw; /* Schriftgröße für Herzen in vw */
+    color: white; /* Farbe der Herzen auf Weiß setzen */
 }
 
 .einladung {
