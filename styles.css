@@ -169,6 +169,14 @@ nav {
     text-align: center; /* Tagesablauf mittig ausrichten */
 }
 
+.timeline-img {
+display: block; /*Bild als Block-Element anzeigen */
+margin: 20px auto; /* Automatischer Abstand oben und unten, zentriert */
+max-width: 100%; /* Bild an die Breite des Containers anpassen */
+height: auto; /* Höhe automatisch anpassen */
+}
+
+
 .unterkuenfte {
     padding: 20px;
     background-color: #EAB8E4; /* Mauve Farbe für das Unterkünfte-Banner */
