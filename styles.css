@@ -239,6 +239,18 @@ nav {
     text-align: center; /* Antworten mittig ausrichten */
 }
 
+.image-slider {
+    text-align: center; /* Bilder mittig ausrichten */
+    margin: 20px 0; /* Abstand oben und unten */
+}
+
+.slider-img {
+    width: 80%; /* Breite der Bilder anpassen (nicht so groß wie das Verlobungsbild) */
+    max-width: 600px; /* Maximalbreite für die Bilder */
+    height: auto; /* Höhe automatisch anpassen */
+    display: none; /* Standardmäßig ausblenden */
+}
+
 @media (max-width: 600px) {
     .nav-right .hamburger {
         display: block; /* Hamburger-Symbol anzeigen */

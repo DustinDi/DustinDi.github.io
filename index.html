@@ -11,12 +11,12 @@
     <section class="hero">
         <img src="images/Verlobungsbild.jpg" alt="Verlobungsbild von Saskia und Dustin">
         <div class="hero-text">
-            <h1>Saskia und Dustin heiraten!</h1>
             <div class="underline">
                 <span class="line"></span>
-                <span class="hearts">💖💖💖</span> <!-- Drei Herzen -->
+                <h1>Saskia und Dustin heiraten!</h1>
                 <span class="line"></span>
             </div>
+            <div class="hearts">💖💖💖</div> <!-- Drei Herzen -->
             <p>Am 22. August 2025 ist es endlich soweit!</p>
         </div>
     </section>
@@ -46,6 +46,10 @@
         Gebt uns doch bitte zeitnah Bescheid, ob ihr diesen Tag mit uns feiern wollt.<br>
         Liebe Grüße,<br>
         Saskia und Dustin</p>
+    </section>
+
+    <section class="image-slider">
+        <img id="slider-image" src="images/Paarbild1.jpg" alt="Paarbild" class="slider-img">
     </section>
 
     <section class="countdown">
@@ -210,6 +214,24 @@
             const navLinks = document.querySelector('.nav-links');
             navLinks.classList.toggle('active');
         }
+        
+        // Bildwechsel für die Bilder unter dem Einladungstext
+        const images = ["images/Paarbild1.jpg", "images/Paarbild2.jpg", "images/Paarbild3.jpg"];
+        let currentIndex = 0;
+
+        function changeImage() {
+            const sliderImage = document.getElementById("slider-image");
+            sliderImage.src = images[currentIndex];
+            sliderImage.style.display = "block"; // Bild sichtbar machen
+            currentIndex = (currentIndex + 1) % images.length; // Index für das nächste Bild
+            setTimeout(() => {
+                sliderImage.style.display = "none"; // Bild nach 2 Sekunden ausblenden
+                changeImage(); // Nächstes Bild anzeigen
+            }, 2000);
+        }
+
+        // Starten der Bildrotation
+        changeImage();
     </script>
 </body>
 </html>
