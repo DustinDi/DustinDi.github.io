@@ -18,7 +18,7 @@ nav {
 }
 
 .nav-left {
-    font-size: 3vw; /* Schriftgröße für den Navigationsbanner in vw */
+    font-size: 2.5rem; /* Schriftgröße für den Navigationsbanner anpassen */
     font-weight: bold;
 }
 
@@ -41,7 +41,7 @@ nav {
     margin-left: 20px;
     color: white;
     text-decoration: none;
-    font-size: 1.5vw; /* Schriftgröße für Links in vw (verkleinert) */
+    font-size: 1.5rem; /* Schriftgröße für Links anpassen */
 }
 
 .nav-right a:hover {
@@ -260,11 +260,11 @@ nav {
     }
 
     .nav-left {
-        font-size: 5vw; /* Schriftgröße für den Navigationsbanner in vw für mobile Geräte */
+        font-size: 2.5rem; /* Schriftgröße für den Navigationsbanner anpassen */
     }
 
     .nav-right a {
-        font-size: 3vw; /* Schriftgröße für Links in vw für mobile Geräte */
+        font-size: 1.5rem; /* Schriftgröße für Links anpassen */
     }
 
     .hero-text h1 {
