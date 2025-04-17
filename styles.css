@@ -41,7 +41,7 @@ nav {
     margin-left: 20px;
     color: white;
     text-decoration: none;
-    font-size: 2vw; /* Schriftgröße für Links in vw */
+    font-size: 1.5vw; /* Schriftgröße für Links in vw (verkleinert) */
 }
 
 .nav-right a:hover {
@@ -189,12 +189,6 @@ nav {
 .organisation-info img {
     width: 100px; /* Breite der Bilder anpassen */
     height: auto; /* Höhe automatisch anpassen */
-}
-
-.team-member-image {
-    width: 100px; /* Feste Breite für beide Bilder */
-    height: 100px; /* Feste Höhe für beide Bilder */
-    object-fit: cover; /* Bild zuschneiden, um das Seitenverhältnis beizubehalten */
     border-radius: 50%; /* Runde Bilder */
 }
 
@@ -216,14 +210,16 @@ nav {
     background-color: white; /* Weißer Hintergrund für die Fragen */
     border-radius: 5px;
     border: 1px solid #D8A1C1; /* Optional: Rahmen um die Fragen */
+    text-align: center; /* Fragen mittig ausrichten */
 }
 
 .faq-answer {
     display: none; /* Antworten standardmäßig ausblenden */
     padding: 10px;
-    background-color: #F5F5F5; /* Helle Hintergrundfarbe für die Antworten */
+    background-color: white; /* Weißer Hintergrund für die Antworten */
     border-radius: 5px;
     margin-top: 5px; /* Abstand zwischen Frage und Antwort */
+    text-align: center; /* Antworten mittig ausrichten */
 }
 
 @media (max-width: 600px) {
