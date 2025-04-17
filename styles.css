@@ -66,10 +66,25 @@ nav {
     transform: translate(-50%, -50%);
     color: white; /* Textfarbe auf Weiß für den Overlay-Text */
     text-shadow: 2px 2px 4px rgba(0, 0, 0, 0.5);
+    text-align: center; /* Text mittig ausrichten */
+}
+
+.underline {
+    display: flex;
+    align-items: center; /* Vertikale Ausrichtung der Elemente */
+    justify-content: center; /* Horizontale Ausrichtung der Elemente */
+}
+
+.line {
+    flex: 1; /* Linien nehmen den verfügbaren Platz ein */
+    height: 2px; /* Höhe der Linie */
+    background-color: white; /* Farbe der Linie */
+    margin: 0 10px; /* Abstand zwischen Linie und Text */
 }
 
 .hero-text h1 {
     font-size: 6vw; /* Schriftgröße für den Haupttitel in vw */
+    white-space: nowrap; /* Verhindert Zeilenumbruch */
 }
 
 .hearts {
