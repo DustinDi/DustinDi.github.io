@@ -278,6 +278,43 @@ nav {
     text-align: center; /* Antworten mittig ausrichten */
 }
 
+.hexagon {
+    width: 80px; /* Breite des Bildes */
+    height: 46.19px; /* Höhe des Bildes */
+    background-color: transparent; /* Hintergrundfarbe transparent */
+    position: relative; /* Position relativ für das Pseudoelement */
+    overflow: hidden; /* Überlauf verstecken */
+    margin: 0 auto; /* Zentrieren */
+}
+
+.hexagon img {
+    width: 100%; /* Bild auf volle Breite setzen */
+    height: auto; /* Höhe automatisch anpassen */
+    position: absolute; /* Position absolut */
+    top: 50%; /* Vertikal zentrieren */
+    left: 50%; /* Horizontal zentrieren */
+    transform: translate(-50%, -50%); /* Zentrieren */
+}
+
+.hexagon::before,
+.hexagon::after {
+    content: '';
+    position: absolute;
+    width: 0;
+    border-left: 40px solid transparent; /* Linker Teil des Sechsecks */
+    border-right: 40px solid transparent; /* Rechter Teil des Sechsecks */
+}
+
+.hexagon::before {
+    bottom: 100%; /* Oben */
+    border-bottom: 23.09px solid #EAB8E4; /* Farbe des oberen Teils */
+}
+
+.hexagon::after {
+    top: 100%; /* Unten */
+    border-top: 23.09px solid #EAB8E4; /* Farbe des unteren Teils */
+}
+
 @media (max-width: 600px) {
     .nav-right .hamburger {
         display: block; /* Hamburger-Symbol anzeigen */
