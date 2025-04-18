@@ -132,11 +132,26 @@ nav {
 }
 
 .countdown-timer {
-    background-color: white; /* Hintergrund für den Countdown-Timer auf Weiß */
-    padding: 10px;
-    border-radius: 8px;
-    margin-top: 10px; /* Abstand zwischen Banner und Timer */
-    text-align: center; /* Sicherstellen, dass der Timer auch mittig ist */
+    display: flex; /* Flexbox für die Countdown-Anzeige */
+    justify-content: center; /* Mittige Ausrichtung */
+    margin-top: 10px; /* Abstand zwischen Titel und Timer */
+}
+
+.countdown-item {
+    margin: 0 20px; /* Abstand zwischen den Countdown-Elementen */
+    text-align: center; /* Text mittig ausrichten */
+}
+
+.countdown-item span {
+    font-size: 2rem; /* Schriftgröße für die Zahlen */
+    font-weight: bold; /* Fett für die Zahlen */
+}
+
+.timeline-img {
+    display: block; /* Bild als Block-Element anzeigen */
+    margin: 20px auto; /* Automatischer Abstand oben und unten, zentriert */
+    max-width: 100%; /* Bild an die Breite des Containers anpassen */
+    height: auto; /* Höhe automatisch anpassen */
 }
 
 .locations {
