@@ -7,7 +7,7 @@ body {
 }
 
 header {
-    background-color: #EAB8E4; /* Navigationsbanner-Farbe auf Mauve gesetzt */
+    background-color: #fbceb1; /* Navigationsbanner-Farbe auf Mauve gesetzt */
     padding: 10px 20px;
 }
 
@@ -91,7 +91,7 @@ nav {
 
 .hero-text p {
     font-family: 'Montserrat', sans-serif; /* Schriftart für den Untertitel */
-    font-weight: 300; /*Schriftart für den Haupttitel */
+    font-weight: 300; /* Schriftart für den Haupttitel */
 }
 
 .hearts {
@@ -108,7 +108,7 @@ nav {
 }
 
 .image-slider {
-    display: flex; /*Flexbox für die Bildausrichtung */
+    display: flex; /* Flexbox für die Bildausrichtung */
     justify-content: center; /* Mittige Ausrichtung */
     margin: 20px 0; /* Abstand oben und unten */
 }
@@ -122,7 +122,7 @@ nav {
 
 .countdown {
     padding: 20px;
-    background-color: #EAB8E4; /* Mauve Farbe für den Countdown-Bereich */
+    background-color: #fbceb1; /* Mauve Farbe für den Countdown-Bereich */
     margin: 20px;
     border-radius: 8px;
     text-align: center; /* Countdown mittig ausrichten */
@@ -138,7 +138,7 @@ nav {
 
 .locations {
     padding: 20px;
-    background-color: #EAB8E4; /* Mauve Farbe für den Locations-Bereich */
+    background-color: #fbceb1; /* Mauve Farbe für den Locations-Bereich */
     margin: 20px;
     border-radius: 8px;
     text-align: center; /* Locationstext mittig ausrichten */
@@ -155,24 +155,15 @@ nav {
 
 .tagesablauf {
     padding: 20px;
-    background-color: #EAB8E4; /* Mauve Farbe für den Tagesablauf-Bereich */
+    background-color: #fbceb1; /* Mauve Farbe für den Tagesablauf-Bereich */
     margin: 20px;
     border-radius: 8px;
     text-align: center; /* Tagesablauf mittig ausrichten */
 }
 
-
-.timeline-img {
-display: block; /*Bild als Block-Element anzeigen */
-margin: 20px auto; /* Automatischer Abstand oben und unten, zentriert */
-max-width: 100%; /* Bild an die Breite des Containers anpassen */
-height: auto; /* Höhe automatisch anpassen */
-}
-
-
 .unterkuenfte {
     padding: 20px;
-    background-color: #EAB8E4; /* Mauve Farbe für das Unterkünfte-Banner */
+    background-color: #fbceb1; /* Mauve Farbe für das Unterkünfte-Banner */
     margin: 20px;
     border-radius: 8px;
     text-align: center; /* Unterkünfte-Banner mittig ausrichten */
@@ -180,7 +171,7 @@ height: auto; /* Höhe automatisch anpassen */
 
 .rueckmeldung {
     padding: 20px;
-    background-color: #EAB8E4; /* Mauve Farbe für das Rückmeldungs-Banner */
+    background-color: #fbceb1; /* Mauve Farbe für das Rückmeldungs-Banner */
     margin: 20px;
     border-radius: 8px;
     text-align: center; /* Rückmeldungs-Banner mittig ausrichten */
@@ -194,7 +185,7 @@ height: auto; /* Höhe automatisch anpassen */
 .tally-survey button {
     padding: 10px 20px; /* Polsterung für den Button */
     font-size: 16px; /* Schriftgröße für den Button */
-    background-color: #EAB8E4; /* Hintergrundfarbe für den Button */
+    background-color: #fbceb1; /* Hintergrundfarbe für den Button */
     color: white; /* Textfarbe für den Button */
     border: none; /* Keine Rahmenlinie */
     border-radius: 5px; /* Abgerundete Ecken */
@@ -207,7 +198,7 @@ height: auto; /* Höhe automatisch anpassen */
 
 .organisationsteam {
     padding: 20px;
-    background-color: #EAB8E4; /* Mauve Farbe für das Organisationsteam-Banner */
+    background-color: #fbceb1; /* Mauve Farbe für das Organisationsteam-Banner */
     margin: 20px;
     border-radius: 8px;
     text-align: center; /* Organisationsteam-Banner mittig ausrichten */
@@ -232,7 +223,7 @@ height: auto; /* Höhe automatisch anpassen */
 
 .faq {
     padding: 20px;
-    background-color: #EAB8E4; /* Mauve Farbe für das FAQ-Banner */
+    background-color: #fbceb1; /* Mauve Farbe für das FAQ-Banner */
     margin: 20px;
     border-radius: 8px;
     text-align: center; /* FAQ-Banner mittig ausrichten */
@@ -247,7 +238,7 @@ height: auto; /* Höhe automatisch anpassen */
     padding: 10px;
     background-color: white; /* Weißer Hintergrund für die Fragen */
     border-radius: 5px;
-    border: 1px solid #D8A1C1; /* Optional: Rahmen um die Fragen */
+    border: 1px solid #fbceb1; /* Optional: Rahmen um die Fragen */
     text-align: center; /* Fragen mittig ausrichten */
 }
 
@@ -269,7 +260,7 @@ height: auto; /* Höhe automatisch anpassen */
         display: none; /* Links standardmäßig ausblenden */
         flex-direction: column; /* Links untereinander anordnen */
         position: absolute; /* Positionierung für Dropdown */
-        background-color: #EAB8E4; /* Hintergrundfarbe für Dropdown */
+        background-color: #fbceb1; /* Hintergrundfarbe für Dropdown */
         width: 100%; /* Breite auf 100% setzen */
         top: 60px; /* Positionierung unter dem Header */
         left: 0;
