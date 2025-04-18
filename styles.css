@@ -281,7 +281,6 @@ nav {
 .hexagon {
     width: 80px; /* Breite des Bildes */
     height: 46.19px; /* Höhe des Bildes */
-    background-color: transparent; /* Hintergrundfarbe transparent */
     position: relative; /* Position relativ für das Pseudoelement */
     overflow: hidden; /* Überlauf verstecken */
     margin: 0 auto; /* Zentrieren */
