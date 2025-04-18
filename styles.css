@@ -151,6 +151,11 @@ nav {
     font-weight: bold; /* Fett für die Texte "Tage", "Stunden" und "Minuten" */
 }
 
+.number {
+    font-weight: normal; /* Normale Schriftstärke für die Zahlenwerte */
+    font-size: 2rem; /* Schriftgröße für die Zahlen */
+}
+
 .timeline-img {
     display: block; /* Bild als Block-Element anzeigen */
     margin: 20px auto; /* Automatischer Abstand oben und unten, zentriert */
