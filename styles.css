@@ -343,11 +343,32 @@ nav {
         align-items: center; /* Elemente zentrieren */
     }
 
+.location-info img {
+    width: 160px; /* Breite auf 160px erhöhen */
+    height: auto; /* Höhe automatisch anpassen */
+    margin-top: 20px; /* Abstand zwischen Bild und Adressinfo */
+    margin-right: 20px; /* Abstand zwischen Bild und Text */
+}
+
     .location-info a img {
     width: 160px; /* Breite auf 160px erhöhen */
     height: auto; /* Höhe automatisch anpassen */
     margin-top: 20px; /* Abstand zwischen Bild und Adressinfo */
     margin-right: 20px; /* Abstand zwischen Bild und Text */
+}
+
+.location-info div img {
+    width: 160px; /* Breite auf 160px erhöhen */
+    height: auto; /* Höhe automatisch anpassen */
+    margin-top: 20px; /* Abstand zwischen Bild und Adressinfo */
+    margin-right: 20px; /* Abstand zwischen Bild und Text */
+}
+
+.location-info div img {
+    width: 160px !important; /* Breite auf 160px erhöhen */
+    height: auto !important; /* Höhe automatisch anpassen */
+    margin-top: 20px !important; /* Abstand zwischen Bild und Adressinfo */
+    margin-right: 20px !important; /* Abstand zwischen Bild und Text */
 }
 
     .location-info p {
