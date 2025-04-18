@@ -279,20 +279,10 @@ nav {
 }
 
 .hexagon {
-    width: 100px; /* Breite des Hexagons */
-    height: 57.74px; /* Höhe des Hexagons */
+    width: 160px; /* Breite des Hexagons */
+    height: 92.74px; /* Höhe des Hexagons */
     position: relative; /* Position relativ für das Pseudoelement */
     overflow: hidden; /* Überlauf verstecken */
-    margin: 0 auto; /* Zentrieren */
-}
-
-.hexagon img {
-    width: 100%; /* Bild auf volle Breite setzen */
-    height: auto; /* Höhe automatisch anpassen */
-    position: absolute; /* Position absolut */
-    top: 50%; /* Vertikal zentrieren */
-    left: 50%; /* Horizontal zentrieren */
-    transform: translate(-50%, -50%); /* Zentrieren */
 }
 
 .hexagon::before,
@@ -300,18 +290,18 @@ nav {
     content: '';
     position: absolute;
     width: 0;
-    border-left: 50px solid transparent; /* Linker Teil des Sechsecks */
-    border-right: 50px solid transparent; /* Rechter Teil des Sechsecks */
+    border-left: 80px solid transparent; /* Linker Teil des Sechsecks */
+    border-right: 80px solid transparent; /* Rechter Teil des Sechsecks */
 }
 
 .hexagon::before {
     bottom: 100%; /* Oben */
-    border-bottom: 28.87px solid #EAB8E4; /* Farbe des oberen Teils */
+    border-bottom: 46.87px solid #EAB8E4; /* Farbe des oberen Teils */
 }
 
 .hexagon::after {
     top: 100%; /* Unten */
-    border-top: 28.87px solid #EAB8E4; /* Farbe des unteren Teils */
+    border-top: 46.87px solid #EAB8E4; /* Farbe des unteren Teils */
 }
 
 @media (max-width: 600px) {
