@@ -304,6 +304,7 @@ nav {
     border-top: 46.87px solid #EAB8E4; /* Farbe des unteren Teils */
 }
 
+
 @media (max-width: 600px) {
     .nav-right .hamburger {
         display: block; /* Hamburger-Symbol anzeigen */
