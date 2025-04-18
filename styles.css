@@ -147,6 +147,10 @@ nav {
     font-weight: bold; /* Fett für die Zahlen */
 }
 
+.label {
+    font-weight: bold; /* Fett für die Texte "Tage", "Stunden" und "Minuten" */
+}
+
 .timeline-img {
     display: block; /* Bild als Block-Element anzeigen */
     margin: 20px auto; /* Automatischer Abstand oben und unten, zentriert */
