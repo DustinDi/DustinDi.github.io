@@ -162,13 +162,6 @@ nav {
 }
 
 
-.tagesablauf-info {
-    background-color: white; /* Hintergrundfarbe für die Informationen auf Weiß setzen */
-    padding: 15px;
-    margin-top: 10px; /* Abstand zwischen Banner und Informationen */
-    text-align: center; /* Tagesablauf mittig ausrichten */
-}
-
 .timeline-img {
 display: block; /*Bild als Block-Element anzeigen */
 margin: 20px auto; /* Automatischer Abstand oben und unten, zentriert */
