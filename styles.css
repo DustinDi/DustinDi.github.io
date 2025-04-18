@@ -343,7 +343,7 @@ nav {
         align-items: center; /* Elemente zentrieren */
     }
 
-    .location-info img {
+    .location-info a img {
     width: 160px; /* Breite auf 160px erhöhen */
     height: auto; /* Höhe automatisch anpassen */
     margin-top: 20px; /* Abstand zwischen Bild und Adressinfo */
