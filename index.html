@@ -106,9 +106,9 @@
 
     <section id="tagesablauf" class="tagesablauf">
         <h2>Tagesablauf</h2>
-        <img src="images/Timeline.png" alt="Timeline" class="timeline-img"> <!-- Bild für die Timeline -->
     </section>
     
+	<img src="images/Timeline.png" alt="Timeline" class="timeline-img"> <!-- Bild für die Timeline -->
     
 
     <section id="unterkuenfte" class="unterkuenfte">
@@ -211,21 +211,25 @@
         const countdownTimer = document.getElementById("countdown-timer");
 
         const updateCountdown = () => {
-            const now = new Date().getTime();
-            const distance = weddingDate - now;
+    const now = new Date().getTime();
+    const distance = weddingDate - now;
 
-            const days = Math.floor(distance / (1000 * 60 * 60 * 24));
-            const hours = Math.floor((distance % (1000 * 60 * 60 * 24)) / (1000 * 60 * 60));
-            const minutes = Math.floor((distance % (1000 * 60 * 60)) / (1000 * 60));
+    const days = Math.floor(distance / (1000 * 60 * 60 * 24));
+    const hours = Math.floor((distance % (1000 * 60 * 60 * 24)) / (1000 * 60 * 60));
+    const minutes = Math.floor((distance % (1000 * 60 * 60)) / (1000 * 60));
 
-            countdownTimer.innerHTML = `${days} Tage, ${hours} Stunden, ${minutes} Minuten`;
+    // Update the countdown display
+    document.getElementById("days").innerText = days;
+    document.getElementById("hours").innerText = hours;
+    document.getElementById("minutes").innerText = minutes;
 
-            if (distance < 0) {
-                clearInterval(interval);
-                countdownTimer.innerHTML = "Die Hochzeit hat bereits stattgefunden!";
-            }
-        };
-
+    if (distance < 0) {
+        clearInterval(interval);
+        document.getElementById("countdown-timer").innerHTML = "Die Hochzeit hat bereits stattgefunden!";
+    }
+};
+	// Initiale Anzeige der Countdown-Zahlen
+	updateCountdown();
         const interval = setInterval(updateCountdown, 1000);
 
         // Hamburger Menü Funktion
