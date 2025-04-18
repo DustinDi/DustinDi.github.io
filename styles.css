@@ -9,10 +9,8 @@ body {
 header {
     background-color: #fbceb1; /* Navigationsbanner-Farbe auf Mauve gesetzt */
     padding: 10px 20px;
-    position: fixed; /* Fixiert den Header */
-    top: 0; /* Setzt den Header an den oberen Rand */
-    left: 0; /* Setzt den Header an den linken Rand */
-    width: 100%; /* Breite auf 100% setzen */
+    position: sticky; /* Macht den Header sticky */
+    top: 0; /* Setzt den Header an den oberen Rand des Bildschirms */
     z-index: 1000; /* Über anderen Elementen anzeigen */
 }
 
