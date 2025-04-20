@@ -279,10 +279,11 @@ nav {
 }
 
 .hexagon {
-    position: relative;
     width: 160px; /* Breite des Hexagons */
     height: 92.74px; /* Höhe des Hexagons */
+    position: relative; /* Position relativ für das Pseudoelement */
     overflow: hidden; /* Überlauf verstecken */
+    margin: 0 20px; /* Abstand zwischen Bild und Text */
 }
 
 .hexagon img {
