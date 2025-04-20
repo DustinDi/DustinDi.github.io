@@ -2,6 +2,13 @@ body {
     margin: 0; /* Entfernt den Standardabstand des Bodys */
 }
 
+h2 {
+    background-color: transparent; /* Hintergrundfarbe auf transparent setzen */
+    color: black; /* Schriftfarbe nach Bedarf anpassen */
+    padding: 10px; /* Optional: Abstand um die Überschrift */
+    margin: 0; /* Entfernt den Standardabstand */
+}
+
 .hero {
     margin: 0; /* Entfernt den Abstand um das Hero-Bild */
 }
