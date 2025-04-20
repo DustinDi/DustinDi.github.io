@@ -1,17 +1,14 @@
 body {
-    font-family: Arial, sans-serif;
-    background-color: white; /* Hintergrundfarbe auf Weiß gesetzt */
-    margin: 0;
-    padding: 0;
-    color: black; /* Textfarbe auf Schwarz gesetzt */
+    margin: 0; /* Entfernt den Standardabstand des Bodys */
+}
+
+.hero {
+    margin: 0; /* Entfernt den Abstand um das Hero-Bild */
 }
 
 header {
-    background-color: #fbceb1; /* Navigationsbanner-Farbe auf Mauve gesetzt */
-    padding: 10px 20px;
-    position: sticky; /* Macht den Header sticky */
-    top: 0; /* Setzt den Header an den oberen Rand des Bildschirms */
-    z-index: 1000; /* Über anderen Elementen anzeigen */
+    margin: 0; /* Entfernt den Abstand um den Header */
+    padding: 10px 20px; /* Belasse das Padding, um den Header zu gestalten */
 }
 
 nav {
