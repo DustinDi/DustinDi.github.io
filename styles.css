@@ -6,6 +6,12 @@ body {
     margin: 0; /* Entfernt den Abstand um das Hero-Bild */
 }
 
+.hero img {
+    display: block; /* Verhindert zusätzlichen Abstand unter dem Bild */
+    width: 100%; /* Bild auf volle Breite setzen */
+    height: auto; /* Höhe automatisch anpassen */
+}
+
 header {
     background-color: #fbceb1; /* Behalte die Hintergrundfarbe des Headers */
     padding: 10px 20px; /* Belasse das Padding, um den Header zu gestalten */
