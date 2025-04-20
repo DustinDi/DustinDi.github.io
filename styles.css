@@ -26,6 +26,7 @@ header {
     width: 100%; /* Setzt die Breite auf 100% des übergeordneten Elements */
     height: auto; /* Höhe automatisch anpassen, um das Seitenverhältnis beizubehalten */
     display: block; /* Verhindert zusätzlichen Abstand unter dem Bild */
+    clip-path: inset(33.33% 0 33.33% 0); /* Schneidet das obere und untere Drittel ab */
 }
 
 nav {
