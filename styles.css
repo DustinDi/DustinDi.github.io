@@ -279,15 +279,24 @@ nav {
 }
 
 .hexagon {
+    position: relative;
     width: 160px; /* Breite des Hexagons */
     height: 92.74px; /* Höhe des Hexagons */
-    position: relative; /* Position relativ für das Pseudoelement */
     overflow: hidden; /* Überlauf verstecken */
+}
+
+.hexagon img {
+    width: 200%; /* Breite auf 200% erhöhen, um das Hexagon auszufüllen */
+    height: auto; /* Höhe automatisch anpassen */
+    position: absolute; /* Bild positionieren */
+    top: 50%; /* Vertikal zentrieren */
+    left: 50%; /* Horizontal zentrieren */
+    transform: translate(-50%, -50%); /* Zentrieren */
 }
 
 .hexagon::before,
 .hexagon::after {
-    content: '';
+    content: "";
     position: absolute;
     width: 0;
     border-left: 80px solid transparent; /* Linker Teil des Sechsecks */
@@ -303,7 +312,6 @@ nav {
     top: 100%; /* Unten */
     border-top: 46.87px solid #EAB8E4; /* Farbe des unteren Teils */
 }
-
 
 @media (max-width: 600px) {
     .nav-right .hamburger {
