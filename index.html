@@ -24,23 +24,23 @@
         </div>
     </section>
 
-    <header>
-        <nav>
-            <div class="nav-left">Saskia & Dustin</div>
-            <div class="nav-right">
-                <div class="hamburger" onclick="toggleMenu()">&#9776;</div> <!-- Hamburger-Symbol -->
-                <div class="nav-links">
-                    <a href="#einladung">Einladung</a>
-                    <a href="#locations">Locations</a>
-                    <a href="#tagesablauf">Tagesablauf</a>
-                    <a href="#unterkuenfte">Unterkünfte</a>
-                    <a href="#rueckmeldung">Rückmeldung</a>
-                    <a href="#organisatoren">Organisatoren</a> <!-- Link zu Organisatoren -->
-                    <a href="#faq">FAQ</a> <!-- Link zu FAQ -->
-                </div>
+   <header>
+    <nav>
+        <div class="nav-left">Saskia & Dustin</div>
+        <div class="nav-right">
+            <div class="hamburger" onclick="toggleMenu()">&#9776;</div> <!-- Hamburger-Symbol -->
+            <div class="nav-links">
+                <a href="#einladung" onclick="hideMenu()">Einladung</a>
+                <a href="#locations" onclick="hideMenu()">Locations</a>
+                <a href="#tagesablauf" onclick="hideMenu()">Tagesablauf</a>
+                <a href="#unterkuenfte" onclick="hideMenu()">Unterkünfte</a>
+                <a href="#rueckmeldung" onclick="hideMenu()">Rückmeldung</a>
+                <a href="#organisatoren" onclick="hideMenu()">Organisatoren</a> <!-- Link zu Organisatoren -->
+                <a href="#faq" onclick="hideMenu()">FAQ</a> <!-- Link zu FAQ -->
             </div>
-        </nav>
-    </header>
+        </div>
+    </nav>
+</header>
 
     <section id="einladung" class="einladung">
         <h2>Sommerhochzeit</h2>
@@ -326,6 +326,12 @@
             const navLinks = document.querySelector('.nav-links');
             navLinks.classList.toggle('active');
         }
+
+// Neue Funktion zum Ausblenden des Menüs nach dem Klicken auf einen Link
+function hideMenu() {
+    const navLinks = document.querySelector('.nav-links');
+    navLinks.classList.remove('active');
+}
         
         // Bildwechsel für die Bilder unter dem Einladungstext
         const images = [
