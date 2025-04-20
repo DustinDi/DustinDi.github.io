@@ -185,7 +185,7 @@ nav {
 }
 
 .map-image {
-    position: relative; /* Position relativ für das Bild */
+    position: relative; /* Position relativ für die Overlay-Div */
 }
 
 .map-image img {
@@ -204,19 +204,7 @@ nav {
     transition: opacity 0.3s; /* Übergangseffekt */
 }
 
-.map-image::after {
-    content: '';
-    position: absolute;
-    top: 0;
-    left: 0;
-    right: 0;
-    bottom: 0;
-    background-color: rgba(251, 206, 177, 0.5); /* Farbe mit Transparenz */
-    opacity: 0; /* Anfangs unsichtbar */
-    transition: opacity 0.3s; /* Übergangseffekt */
-}
-
-.map-image:hover::after {
+.map-image:hover .overlay {
     opacity: 1; /* Sichtbar beim Hover */
 }
 
