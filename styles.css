@@ -192,17 +192,18 @@ nav {
     display: block; /* Bild blockieren */
 }
 
-.map-image::after {
-    content: '';
+.overlay {
     position: absolute;
     top: 0;
     left: 0;
     right: 0;
     bottom: 0;
     background-color: rgba(251, 206, 177, 0.5); /* Farbe mit Transparenz */
+    clip-path: polygon(50% 0%, 100% 25%, 100% 75%, 50% 100%, 0% 75%, 0% 25%); /* Hexagon-Form */
     opacity: 0; /* Anfangs unsichtbar */
     transition: opacity 0.3s; /* Übergangseffekt */
 }
+
 
 .map-image:hover::after {
     opacity: 1; /* Sichtbar beim Hover */
