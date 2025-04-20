@@ -199,7 +199,7 @@ nav {
     right: 0;
     bottom: 0;
     background-color: rgba(251, 206, 177, 0.5); /* Farbe mit Transparenz */
-    clip-path: polygon(25% 0%, 75% 0%, 100% 50%, 75% 100%, 25% 100%, 0% 50%); /* Hexagon-Form mit Kanten links und rechts */
+    clip-path: polygon(50% 0%, 100% 25%, 100% 75%, 50% 100%, 0% 75%, 0% 25%); /* Hexagon-Form */
     opacity: 0; /* Anfangs unsichtbar */
     transition: opacity 0.3s; /* Übergangseffekt */
 }
