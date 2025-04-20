@@ -22,6 +22,12 @@ header {
     margin: 0; /* Entfernt den Abstand um den Header */
 }
 
+.trennlinie {
+    width: 100%; /* Setzt die Breite auf 100% des übergeordneten Elements */
+    height: auto; /* Höhe automatisch anpassen, um das Seitenverhältnis beizubehalten */
+    display: block; /* Verhindert zusätzlichen Abstand unter dem Bild */
+}
+
 nav {
     display: flex;
     justify-content: space-between;
