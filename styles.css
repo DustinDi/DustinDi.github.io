@@ -180,6 +180,35 @@ nav {
     height: auto;
 }
 
+.map-container {
+    position: relative; /* Position relativ für das Pseudoelement */
+}
+
+.map-image {
+    position: relative; /* Position relativ für das Bild */
+}
+
+.map-image img {
+    display: block; /* Bild blockieren */
+}
+
+.map-image::after {
+    content: '';
+    position: absolute;
+    top: 0;
+    left: 0;
+    right: 0;
+    bottom: 0;
+    background-color: rgba(251, 206, 177, 0.5); /* Farbe mit Transparenz */
+    opacity: 0; /* Anfangs unsichtbar */
+    transition: opacity 0.3s; /* Übergangseffekt */
+}
+
+.map-image:hover::after {
+    opacity: 1; /* Sichtbar beim Hover */
+}
+
+
 .tagesablauf {
     padding: 20px;
     background-color: #fbceb1; /* Mauve Farbe für den Tagesablauf-Bereich */
