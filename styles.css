@@ -2,12 +2,6 @@ body {
     margin: 0; /* Entfernt den Standardabstand des Bodys */
 }
 
-h2 {
-    background-color: transparent; /* Hintergrundfarbe auf transparent setzen */
-    color: black; /* Schriftfarbe nach Bedarf anpassen */
-    padding: 10px; /* Optional: Abstand um die Überschrift */
-    margin: 0; /* Entfernt den Standardabstand */
-}
 
 .hero {
     margin: 0; /* Entfernt den Abstand um das Hero-Bild */
@@ -139,7 +133,7 @@ nav {
 
 .countdown {
     padding: 20px;
-    background-color: #fbceb1; /* Mauve Farbe für den Countdown-Bereich */
+    background-color: white; 
     margin: 20px;
     border-radius: 8px;
     text-align: center; /* Countdown mittig ausrichten */
@@ -179,7 +173,7 @@ nav {
 
 .locations {
     padding: 20px;
-    background-color: #fbceb1; /* Mauve Farbe für den Locations-Bereich */
+    background-color: white;
     margin: 20px;
     border-radius: 8px;
     text-align: center; /* Locationstext mittig ausrichten */
@@ -225,7 +219,7 @@ nav {
 
 .tagesablauf {
     padding: 20px;
-    background-color: #fbceb1; /* Mauve Farbe für den Tagesablauf-Bereich */
+    background-color: white;
     margin: 20px;
     border-radius: 8px;
     text-align: center; /* Tagesablauf mittig ausrichten */
@@ -233,7 +227,7 @@ nav {
 
 .unterkuenfte {
     padding: 20px;
-    background-color: #fbceb1; /* Mauve Farbe für das Unterkünfte-Banner */
+    background-color: white;
     margin: 20px;
     border-radius: 8px;
     text-align: center; /* Unterkünfte-Banner mittig ausrichten */
@@ -241,7 +235,7 @@ nav {
 
 .rueckmeldung {
     padding: 20px;
-    background-color: #fbceb1; /* Mauve Farbe für das Rückmeldungs-Banner */
+    background-color: white;
     margin: 20px;
     border-radius: 8px;
     text-align: center; /* Rückmeldungs-Banner mittig ausrichten */
@@ -268,7 +262,7 @@ nav {
 
 .organisationsteam {
     padding: 20px;
-    background-color: #fbceb1; /* Mauve Farbe für das Organisationsteam-Banner */
+    background-color: white;
     margin: 20px;
     border-radius: 8px;
     text-align: center; /* Organisationsteam-Banner mittig ausrichten */
@@ -293,7 +287,7 @@ nav {
 
 .faq {
     padding: 20px;
-    background-color: #fbceb1; /* Mauve Farbe für das FAQ-Banner */
+    background-color: white;
     margin: 20px;
     border-radius: 8px;
     text-align: center; /* FAQ-Banner mittig ausrichten */
