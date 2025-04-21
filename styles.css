@@ -141,7 +141,7 @@ nav {
     height: auto; /* Höhe automatisch anpassen, um das Seitenverhältnis beizubehalten */
     display: block; /* Verhindert zusätzlichen Abstand unter dem Bild */
     margin: 0 auto; /* Automatischer Abstand links und rechts */
-    position: absolute; /* Positionierung für Überlagerung */
+    
 }
 
 .countdown {
