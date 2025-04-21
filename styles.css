@@ -181,12 +181,17 @@ nav {
     height: auto; /* Höhe automatisch anpassen */
 }
 
-.locations {
+.location {
     padding: 20px;
     background-color: white;
     margin: 0;
     border-radius: 8px;
     text-align: center; /* Locationstext mittig ausrichten */
+}
+
+.location img {
+    width: 80px; /* Bildgröße s' Bierhase Schiere */
+    height: auto;
 }
 
 .location-info {
