@@ -128,13 +128,14 @@ nav {
 .image-slider {
     display: flex; /* Flexbox für die Bildausrichtung */
     justify-content: center; /* Mittige Ausrichtung */
-    width: 100%; /* Breite des Sliders */
+    margin: 20px 0; /* Abstand oben und unten */
     overflow: hidden; /* Verhindert, dass Bilder über den Container hinaus ragen */
 }
 
 .slider-img {
-    width: 100%; /* Breite auf 100% setzen */
-    height: 300px; /* Feste Höhe für alle Bilder */
+    width: 66.67%; /* Breite der Bilder auf 2/3 der Originalgröße setzen */
+    max-width: 400px; /* Maximalbreite für die Bilder */
+    height: auto; /* Höhe automatisch anpassen */
     object-fit: cover; /* Bild anpassen, um den Container zu füllen */
 }
 
