@@ -135,6 +135,7 @@ nav {
     max-width: 400px; /* Maximalbreite für die Bilder */
     height: auto; /* Höhe automatisch anpassen */
     display: none; /* Standardmäßig ausblenden */
+    object-fit: cover; /* Bild anpassen, um den Container zu füllen */
 }
 
 .countdown {
