@@ -125,17 +125,18 @@ nav {
     text-align: center; /* Einladungstext mittig ausrichten */
 }
 
+
+
+
 .image-slider {
-    display: flex; /* Flexbox für die Bildausrichtung */
+    width: 60%; /* Breite des Sliders */
     justify-content: center; /* Mittige Ausrichtung */
-    margin: 20px 0; /* Abstand oben und unten */
     overflow: hidden; /* Verhindert, dass Bilder über den Container hinaus ragen */
 }
 
 .slider-img {
-    width: 66.67%; /* Breite der Bilder auf 2/3 der Originalgröße setzen */
-    max-width: 400px; /* Maximalbreite für die Bilder */
-    height: auto; /* Höhe automatisch anpassen */
+    width: 100%; /* Breite auf 100% setzen */
+    height: auto; /* Feste Höhe für alle Bilder */
     object-fit: cover; /* Bild anpassen, um den Container zu füllen */
 }
 
