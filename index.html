@@ -378,6 +378,10 @@ function changeImage() {
     setTimeout(changeImage, 5000); // 5000 Millisekunden = 5 Sekunden
 }
 
+// Setze das erste Bild sichtbar
+document.getElementById("slider-image").src = images[currentIndex];
+document.getElementById("slider-image").style.opacity = 1;
+
 // Starte den Bildwechsel
 changeImage();
 

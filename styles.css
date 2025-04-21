@@ -127,9 +127,6 @@ nav {
     text-align: center; /* Einladungstext mittig ausrichten */
 }
 
-
-
-
 .image-slider {
     display: flex; /* Flexbox für das Layout */
     justify-content: center; /* Zentriert den Inhalt horizontal */
