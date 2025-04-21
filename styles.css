@@ -28,7 +28,7 @@ header {
     display: block; /* Verhindert zusätzlichen Abstand unter dem Bild */
     width: 45%; /* Setzt die Breite auf 100% des übergeordneten Elements */
     height: auto; /* Höhe automatisch anpassen, um das Seitenverhältnis beizubehalten */
-    margin-left: auto; /* Automatischer Abstand */
+    margin: auto; /* Automatischer Abstand */
   }
 
 nav {
