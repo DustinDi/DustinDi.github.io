@@ -26,10 +26,9 @@ header {
 
 .trennlinie {
     display: block; /* Verhindert zusätzlichen Abstand unter dem Bild */
-    margin-left: 20px; /*  Abstand */
-    margin-right: 20px; /*  Abstand */
     width: 45%; /* Setzt die Breite auf 100% des übergeordneten Elements */
     height: auto; /* Höhe automatisch anpassen, um das Seitenverhältnis beizubehalten */
+    margin-left: auto; /* Automatischer Abstand */
   }
 
 nav {
