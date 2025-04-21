@@ -131,7 +131,7 @@ nav {
     display: flex; /* Flexbox für das Layout */
     justify-content: center; /* Zentriert den Inhalt horizontal */
     align-items: center; /* Zentriert den Inhalt vertikal */
-    width: auto%; /* Breite des Sliders */
+    width: 25%; /* Breite des Sliders */
     
 }
 
