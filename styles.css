@@ -5,16 +5,19 @@ body {
 h1 {
     font-family: 'Allura', sans-serif; /* Setze die Schriftart für alle h1-Elemente */
     font-size: 36px; /* Schriftgröße für h1 */
+    font-weight: normal; /* Entferne die fette Darstellung */
 }
 
 h2 {
     font-family: 'TT Wellingtons', sans-serif; /* Setze die Schriftart für alle h2-Elemente */
     font-size: 20px; /* Schriftgröße für h2 */
+    font-weight: normal; /* Entferne die fette Darstellung */
 }
 
 h3 {
     font-family: 'TT Wellingtons', sans-serif; /* Setze die Schriftart für alle h3-Elemente */
     font-size: 25px; /* Schriftgröße für h3 */
+    font-weight: normal; /* Entferne die fette Darstellung */
 }
 
 .hero {
@@ -23,7 +26,7 @@ h3 {
 
 .hero img {
     display: block; /* Verhindert zusätzlichen Abstand unter dem Bild */
-    width: 60%; /* Bild auf volle Breite setzen */
+    width: 100%; /* Bild auf volle Breite setzen */
     height: auto; /* Höhe automatisch anpassen */
 }
 
