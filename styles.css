@@ -137,7 +137,7 @@ nav {
 
 .slider-img {
     width: 100%; /* Breite auf 100% setzen */
-    height: 300px; /* Feste Höhe für alle Bilder */
+    height: 450px; /* Feste Höhe für alle Bilder */
     object-fit: cover; /* Bild anpassen, um den Container zu füllen */
     display: block;
 }
