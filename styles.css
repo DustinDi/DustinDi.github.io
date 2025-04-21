@@ -26,6 +26,7 @@ header {
     width: 60%; /* Setzt die Breite auf 100% des übergeordneten Elements */
     height: auto; /* Höhe automatisch anpassen, um das Seitenverhältnis beizubehalten */
     display: block; /* Verhindert zusätzlichen Abstand unter dem Bild */
+    justify-content: center; /* Mittige Ausrichtung */
     }
 
 nav {
