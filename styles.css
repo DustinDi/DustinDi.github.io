@@ -26,6 +26,11 @@ h4 {
     font-weight: normal; /* Entferne die fette Darstellung */
 }
 
+h5 {
+    font-family: 'TT Wellingtons', sans-serif; /* Setze die Schriftart für alle h3-Elemente */
+    font-size: 25px; /* Schriftgröße für h3 */
+}
+
 .hero {
     margin: 0; /* Entfernt den Abstand um das Hero-Bild */
 }
@@ -190,7 +195,9 @@ nav {
 }
 
 .location img {
-    width: 80px; /* Bildgröße s' Bierhase Schiere */
+    display: block; /* Bild als Block-Element anzeigen */
+    margin: auto; /* Automatischer Abstand oben und unten, zentriert */    
+    width: 15%; /* Bildgröße s' Bierhase Schiere */
     height: auto;
 }
 
