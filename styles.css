@@ -189,6 +189,7 @@ h2 {
     display: block; /* Bild als Block-Element anzeigen */
     margin: 20px auto; /* Automatischer Abstand oben und unten, zentriert */
     max-width: 100%; /* Bild an die Breite des Containers anpassen */
+    width: 60 %;
     height: auto; /* Höhe automatisch anpassen */
 }
 
