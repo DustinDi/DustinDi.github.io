@@ -1,5 +1,6 @@
 body {
     margin: 0; /* Entfernt den Standardabstand des Bodys */
+    font-family: 'TT Wellingtons', sans-serif; /* Setze die Schriftart für den gesamten Text */
 }
 
 
