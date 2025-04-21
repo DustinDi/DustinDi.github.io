@@ -188,7 +188,7 @@ h2 {
 .timeline-img {
     display: block; /* Bild als Block-Element anzeigen */
     margin: auto; /* Automatischer Abstand oben und unten, zentriert */
-    width: 60%;
+    width: 30%;
     height: auto; /* Höhe automatisch anpassen */
 }
 
