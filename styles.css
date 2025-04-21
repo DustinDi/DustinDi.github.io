@@ -173,7 +173,7 @@ h2 {
 
 .countdown-item span {
     font-size: 2rem; /* Schriftgröße für die Zahlen */
-    font-weight: bold; /* Fett für die Zahlen */
+    font-weight: normal; /* Fett für die Zahlen */
 }
 
 .label {
