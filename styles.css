@@ -152,7 +152,7 @@ h2 {
 .countdown {
     padding: 20px;
     background-color: white; 
-    margin: 20px;
+    margin: 0;
     border-radius: 8px;
     text-align: center; /* Countdown mittig ausrichten */
 }
@@ -192,7 +192,7 @@ h2 {
 .locations {
     padding: 20px;
     background-color: white;
-    margin: 20px;
+    margin: 0;
     border-radius: 8px;
     text-align: center; /* Locationstext mittig ausrichten */
 }
