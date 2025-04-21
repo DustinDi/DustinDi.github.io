@@ -9,12 +9,12 @@ h1 {
 
 h2 {
     font-family: 'TT Wellingtons', sans-serif; /* Setze die Schriftart für alle h2-Elemente */
-    font-size: 12px; /* Schriftgröße für h2 */
+    font-size: 20px; /* Schriftgröße für h2 */
 }
 
 h3 {
     font-family: 'TT Wellingtons', sans-serif; /* Setze die Schriftart für alle h3-Elemente */
-    font-size: 20px; /* Schriftgröße für h3 */
+    font-size: 25px; /* Schriftgröße für h3 */
 }
 
 .hero {
