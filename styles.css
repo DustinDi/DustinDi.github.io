@@ -129,7 +129,7 @@ nav {
 
 
 .image-slider {
-    width: 60%; /* Breite des Sliders */
+    width: 25%; /* Breite des Sliders */
     justify-content: center; /* Mittige Ausrichtung */
     overflow: hidden; /* Verhindert, dass Bilder über den Container hinaus ragen */
 }
