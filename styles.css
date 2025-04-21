@@ -197,7 +197,7 @@ nav {
 .location img {
     display: block; /* Bild als Block-Element anzeigen */
     margin: auto; /* Automatischer Abstand oben und unten, zentriert */    
-    width: 30px; /* Bildgröße s' Bierhase Schiere */
+    width: auto; /* Bildgröße s' Bierhase Schiere */
     height: auto;
 }
 
