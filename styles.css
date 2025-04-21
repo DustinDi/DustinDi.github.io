@@ -327,9 +327,34 @@ nav {
 
 
 @media (max-width: 600px) {
-    .nav-right .hamburger {
-        display: block; /* Hamburger-Symbol anzeigen */
-    }
+
+h1 {
+    font-family: 'Allura', sans-serif; /* Setze die Schriftart für alle h1-Elemente */
+    font-size: 36px; /* Schriftgröße für h1 */
+    font-weight: normal; /* Entferne die fette Darstellung */
+}
+
+h2 {
+    font-family: 'TT Wellingtons', sans-serif; /* Setze die Schriftart für alle h2-Elemente */
+    font-size: 20px; /* Schriftgröße für h2 */
+    font-weight: normal; /* Entferne die fette Darstellung */
+}
+
+h3 {
+    font-family: 'TT Wellingtons', sans-serif; /* Setze die Schriftart für alle h3-Elemente */
+    font-size: 25px; /* Schriftgröße für h3 */
+    font-weight: normal; /* Entferne die fette Darstellung */
+}
+
+h4 {
+    font-family: 'TT Wellingtons', sans-serif; /* Setze die Schriftart für alle h4-Elemente */
+    font-size: 18px; /* Schriftgröße für h4 */
+    font-weight: normal; /* Entferne die fette Darstellung */
+}
+    
+.nav-right .hamburger {
+    display: block; /* Hamburger-Symbol anzeigen */
+}
 
     .nav-links {
         display: none; /* Links standardmäßig ausblenden */
