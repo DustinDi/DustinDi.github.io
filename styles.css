@@ -240,7 +240,7 @@ nav {
 }
 
 
-.tagesablauf {
+.ablaufplan {
     padding: 20px;
     background-color: white;
     margin: 20px;
@@ -248,12 +248,12 @@ nav {
     text-align: center; /* Tagesablauf mittig ausrichten */
 }
 
-.unterkuenfte {
+.hotel {
     padding: 20px;
     background-color: white;
     margin: 20px;
     border-radius: 8px;
-    text-align: center; /* Unterkünfte-Banner mittig ausrichten */
+    text-align: center; /* Hotel-Banner mittig ausrichten */
 }
 
 .rueckmeldung {
