@@ -131,9 +131,8 @@ nav {
     display: flex; /* Flexbox für das Layout */
     justify-content: center; /* Zentriert den Inhalt horizontal */
     align-items: center; /* Zentriert den Inhalt vertikal */
-    width: 25%; /* Breite des Sliders */
-    overflow: hidden; /* Verhindert, dass Bilder über den Container hinaus ragen */
-    position: relative; /* Für die absolute Positionierung der Bilder */
+    width: auto%; /* Breite des Sliders */
+    
 }
 
 .slider-img {
@@ -141,9 +140,6 @@ nav {
     height: auto; /* Höhe automatisch anpassen, um das Seitenverhältnis beizubehalten */
     display: block; /* Verhindert zusätzlichen Abstand unter dem Bild */
     margin: 0 auto; /* Automatischer Abstand links und rechts */
-    position: absolute; /* Positionierung für Überlagerung */
-    opacity: 0; /* Start mit unsichtbarem Bild */
-    transition: opacity 0.5s ease; /* Sanfter Übergang für die Sichtbarkeit */
 }
 
 .countdown {
