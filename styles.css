@@ -368,24 +368,31 @@ h4 {
     display: block; /* Hamburger-Symbol anzeigen */
 }
 
-    .nav-links {
-        display: none; /* Links standardmäßig ausblenden */
-        flex-direction: column; /* Links untereinander anordnen */
-        position: absolute; /* Positionierung für Dropdown */
-        background-color: #fbceb1; /* Hintergrundfarbe für Dropdown */
-        width: 100%; /* Breite auf 100% setzen */
-        top: 60px; /* Positionierung unter dem Header */
-        left: 0;
-        z-index: 1000; /* Über anderen Elementen anzeigen */
-    }
+ .nav-links {
+    display: flex; /* Flexbox für die Links */
+    flex-direction: column; /* Links untereinander anordnen */
+    align-items: center; /* Zentriert die Links horizontal */
+    position: absolute; /* Positionierung für Dropdown */
+    background-color: #fbceb1; /* Hintergrundfarbe für Dropdown */
+    width: 100%; /* Breite auf 100% setzen */
+    top: 60px; /* Positionierung unter dem Header */
+    left: 0;
+    z-index: 1000; /* Über anderen Elementen anzeigen */
+    display: none; /* Links standardmäßig ausblenden */
+}
 
     .nav-links.active {
         display: flex; /* Links anzeigen, wenn aktiv */
     }
 
-    .nav-right a {
-        margin: 10px 0; /* Abstand zwischen Links */
-    }
+.nav-right a {
+    margin: 10px 0; /* Abstand zwischen Links */
+    color: black; /* Schriftfarbe für Links auf Schwarz ändern */
+    text-decoration: none;
+    font-size: 1.5rem; /* Schriftgröße für Links anpassen */
+    text-align: center; /* Links mittig ausrichten */
+    width: 100%; /* Breite auf 100% setzen, damit sie den gesamten Container einnehmen */
+}
 
     .location-info {
         flex-direction: column; /* Elemente untereinander anordnen */
