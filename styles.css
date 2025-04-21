@@ -14,6 +14,11 @@ body {
     height: auto; /* Höhe automatisch anpassen */
 }
 
+.center-text {
+    text-align: center;
+    margin-top: 10px;
+}
+
 header {
     background-color: #fbceb1; /* Behalte die Hintergrundfarbe des Headers */
     padding: 10px 20px; /* Belasse das Padding, um den Header zu gestalten */
@@ -150,7 +155,7 @@ h2 {
 .countdown {
     padding: 20px;
     background-color: white; 
-    margin-bottom: 20 px;
+    margin-bottom: 20px;
     border-radius: 8px;
     text-align: center; /* Countdown mittig ausrichten */
 }
