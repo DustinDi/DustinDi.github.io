@@ -291,7 +291,7 @@ nav {
     background-color: #D8A1C1; /* Dunklere Farbe beim Hover */
 }
 
-.organisationsteam {
+.ansprechpartner {
     padding: 20px;
     background-color: white;
     margin: 20px;
@@ -299,18 +299,18 @@ nav {
     text-align: center; /* Organisationsteam-Banner mittig ausrichten */
 }
 
-.organisation-info {
+.ansprechpartner-info {
     display: flex; /* Flexbox für die Informationen */
     justify-content: center; /* Mittig ausrichten */
     margin: 20px 0; /* Abstand oben und unten */
 }
 
-.organisation-info div {
+.ansprechpartner-info div {
     text-align: center; /* Text in den Informationsboxen mittig ausrichten */
     margin-right: 40px; /* Abstand zwischen den Boxen */
 }
 
-.organisation-info img {
+.ansprechpartner-info img {
     width: 100px; /* Breite der Bilder anpassen */
     height: auto; /* Höhe automatisch anpassen */
     border-radius: 50%; /* Runde Bilder */
