@@ -137,6 +137,7 @@ h2 {
     align-items: center; /* Zentriert den Inhalt vertikal */
     width: 25%; /* Breite des Sliders */
     position: relative; /* Für die Positionierung der Bilder */
+    margin: auto; /* Automatischer Abstand */
     
 }
 
@@ -144,9 +145,6 @@ h2 {
     max-width: 100%; /* Maximale Breite auf 100% setzen */
     height: auto; /* Höhe automatisch anpassen, um das Seitenverhältnis beizubehalten */
     display: block; /* Verhindert zusätzlichen Abstand unter dem Bild */
-    margin-right: 20px; /* Abstand rechts */
-    margin-left: 20px; /* Abstand links */
-    margin-bottom: 20px; /* Abstand unten */
 }
 
 .countdown {
