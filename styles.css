@@ -150,7 +150,7 @@ h2 {
 .countdown {
     padding: 20px;
     background-color: white; 
-    margin: 0;
+    margin-bottom: 20 px;
     border-radius: 8px;
     text-align: center; /* Countdown mittig ausrichten */
 }
