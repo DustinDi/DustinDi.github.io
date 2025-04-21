@@ -3,6 +3,17 @@ body {
     font-family: 'TT Wellingtons', sans-serif; /* Setze die Schriftart für den gesamten Text */
 }
 
+h1 {
+    font-family: 'Abramo', sans-serif; /* Setze die Schriftart für alle h1-Elemente */
+}
+
+h2 {
+    font-family: 'TT Wellingtons', sans-serif; /* Setze die Schriftart für alle h2-Elemente */
+}
+
+h3 {
+    font-family: 'TT Wellingtons', sans-serif; /* Setze die Schriftart für alle h3-Elemente */
+}
 
 .hero {
     margin: 0; /* Entfernt den Abstand um das Hero-Bild */
@@ -114,9 +125,7 @@ nav {
     white-space: nowrap; /* Verhindert Zeilenumbruch */
 }
 
-h2 {
-    font-family: 'Abramo', sans-serif; /* Setze die Schriftart für alle h2-Elemente */
-}
+
 
 .hero-text p {
     font-family: 'Montserrat', sans-serif; /* Schriftart für den Untertitel */
