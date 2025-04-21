@@ -130,6 +130,7 @@ nav {
 
 .image-slider {
     width: 25%; /* Breite des Sliders */
+    display: flex;
     justify-content: center; /* Mittige Ausrichtung */
     overflow: hidden; /* Verhindert, dass Bilder über den Container hinaus ragen */
 }
@@ -138,6 +139,7 @@ nav {
     width: auto; /* Breite auf 100% setzen */
     height: 100%; /* Feste Höhe für alle Bilder */
     object-fit: cover; /* Bild anpassen, um den Container zu füllen */
+    display: block;
 }
 
 .countdown {
