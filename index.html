@@ -360,6 +360,7 @@ let currentIndex = 0;
 
 function changeImage() {
     const sliderImage = document.getElementById("slider-image");
+
     sliderImage.src = images[currentIndex];
     sliderImage.style.display = "block"; // Bild sichtbar machen
     currentIndex = (currentIndex + 1) % images.length; // Index für das nächste Bild
