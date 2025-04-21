@@ -110,6 +110,10 @@ nav {
     white-space: nowrap; /* Verhindert Zeilenumbruch */
 }
 
+h2 {
+    font-family: 'Abramo', sans-serif; /* Setze die Schriftart für alle h2-Elemente */
+}
+
 .hero-text p {
     font-family: 'Montserrat', sans-serif; /* Schriftart für den Untertitel */
     font-weight: 300; /* Schriftart für den Haupttitel */
