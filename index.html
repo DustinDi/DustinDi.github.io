@@ -346,7 +346,6 @@ function hideMenu() {
     navLinks.classList.remove('active');
 }
         
-        // Bildwechsel für die Bilder unter dem Einladungstext
         const images = [
     "images/Paarbild1.jpg",
     "images/Paarbild2.jpg",
@@ -356,22 +355,32 @@ function hideMenu() {
     "images/Paarbild6.jpg",
     "images/Paarbild7.jpg"
 ];
+
 let currentIndex = 0;
 
 function changeImage() {
     const sliderImage = document.getElementById("slider-image");
+    
+    // Bild ausblenden
+    sliderImage.style.opacity = 0;
 
-    sliderImage.src = images[currentIndex];
-    sliderImage.style.display = "block"; // Bild sichtbar machen
-    currentIndex = (currentIndex + 1) % images.length; // Index für das nächste Bild
+    // Warte, bis das Bild ausgeblendet ist
     setTimeout(() => {
-        sliderImage.style.display = "none"; // Bild nach 5 Sekunden ausblenden
-        changeImage(); // Nächstes Bild anzeigen
-    }, 5000); // 5000 Millisekunden = 5 Sekunden
+        // Bild wechseln
+        currentIndex = (currentIndex + 1) % images.length; // Index für das nächste Bild
+        sliderImage.src = images[currentIndex];
+
+        // Bild sichtbar machen
+        sliderImage.style.opacity = 1;
+    }, 500); // Zeit für das Ausblenden
+
+    // Nächsten Bildwechsel nach 5 Sekunden
+    setTimeout(changeImage, 5000); // 5000 Millisekunden = 5 Sekunden
 }
 
-// Starten der Bildrotation
+// Starte den Bildwechsel
 changeImage();
+
     </script>
 </body>
 </html>
