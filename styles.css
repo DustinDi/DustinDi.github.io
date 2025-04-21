@@ -20,6 +20,12 @@ h3 {
     font-weight: normal; /* Entferne die fette Darstellung */
 }
 
+h4 {
+    font-family: 'TT Wellingtons', sans-serif; /* Setze die Schriftart für alle h4-Elemente */
+    font-size: 18px; /* Schriftgröße für h4 */
+    font-weight: normal; /* Entferne die fette Darstellung */
+}
+
 .hero {
     margin: 0; /* Entfernt den Abstand um das Hero-Bild */
 }
