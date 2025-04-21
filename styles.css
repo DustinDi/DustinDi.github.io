@@ -27,7 +27,7 @@ header {
     display: block; /* Verhindert zusätzlichen Abstand unter dem Bild */
     margin-left: auto; /* Automatischer linker Abstand */
     margin-right: auto; /* Automatischer rechter Abstand */
-    width: 60%; /* Setzt die Breite auf 100% des übergeordneten Elements */
+    width: 45%; /* Setzt die Breite auf 100% des übergeordneten Elements */
     height: auto; /* Höhe automatisch anpassen, um das Seitenverhältnis beizubehalten */
   }
 
