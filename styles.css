@@ -305,15 +305,16 @@ nav {
 }
 
 .ansprechpartner-info {
-    display: flex; /* Flexbox für die Informationen */
-    justify-content: center; /* Mittig ausrichten */
-    margin: 20px; /* Abstand oben und unten */
+    display: flex; /* Flexbox für die gesamte Info */
+    flex-direction: column; /* Anordnung der Trauzeugen in einer Spalte */
+    align-items: center; /* Zentriert die Trauzeugen horizontal */
+    margin: 20px; /* Margin für den gesamten Bereich */
 }
 
 .trauzeuge {
     display: flex; /* Flexbox für die einzelnen Trauzeugen */
     align-items: center; /* Zentriert die Bilder und Texte vertikal */
-    margin-right: 40px; /* Abstand zwischen den Trauzeugen */
+    margin-bottom: 20px; /* Abstand zwischen den Trauzeugen */
 }
 
 .team-member-image {
