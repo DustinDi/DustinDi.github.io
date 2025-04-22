@@ -425,6 +425,23 @@ h4 {
     width: 100%; /* Breite auf 100% setzen, damit sie den gesamten Container einnehmen */
 }
 
+.image-slider {
+    display: flex; /* Flexbox für das Layout */
+    justify-content: center; /* Zentriert den Inhalt horizontal */
+    align-items: center; /* Zentriert den Inhalt vertikal */
+    width: 80%; /* Breite des Sliders */
+    position: relative; /* Für die Positionierung der Bilder */
+    margin: auto; /* Automatischer Abstand */
+    
+}
+
+.slider-img {
+    max-width: 100%; /* Maximale Breite auf 100% setzen */
+    height: auto; /* Höhe automatisch anpassen, um das Seitenverhältnis beizubehalten */
+    display: block; /* Verhindert zusätzlichen Abstand unter dem Bild */
+}
+
+
     .location-info {
         flex-direction: column; /* Elemente untereinander anordnen */
         align-items: center; /* Elemente zentrieren */
