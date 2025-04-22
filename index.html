@@ -58,9 +58,11 @@
     </section>
 
    
-    <section class="image-slider"> 
-        <img id="slider-image" src="images/Paarbild1.png" alt="Paarbild" class="slider-img"> 
-    </section>
+<section class="image-slider"> 
+    <button class="prev" onclick="changeImage(-1)">&#10094;</button> <!-- Linker Pfeil -->
+    <img id="slider-image" src="images/Paarbild1.png" alt="Paarbild" class="slider-img"> 
+    <button class="next" onclick="changeImage(1)">&#10095;</button> <!-- Rechter Pfeil -->
+</section>
        
     <section class="countdown">
     <h1>Countdown</h1>
@@ -402,7 +404,9 @@ function hideMenu() {
     navLinks.classList.remove('active');
 }
         
-          // Bildwechsel für die Bilder unter dem Einladungstext
+let currentIndex = 0;
+
+ // Bildwechsel für die Bilder unter dem Einladungstext
     const images = [
 "images/Paarbild1.png",
 "images/Paarbild2.png",
@@ -413,21 +417,20 @@ function hideMenu() {
 "images/Paarbild7.png"
 ]; 
 
-let currentIndex = 0;
 
-function changeImage() { 
-const sliderImage = document.getElementById("slider-image"); 
-sliderImage.src = images[currentIndex]; 
-sliderImage.style.display = "block"; // Bild sichtbar machen 
-currentIndex = (currentIndex + 1) % images.length; // Index für das nächste Bild 
-setTimeout(() => { 
-sliderImage.style.display = "none"; // Bild nach 5 Sekunden ausblenden 
-changeImage(); // Nächstes Bild anzeigen 
-}, 5000); // 5000 Millisekunden = 5 Sekunden 
+function changeImage(direction) {
+    currentIndex = (currentIndex + direction + images.length) % images.length; // Berechnet den neuen Index
+    const sliderImage = document.getElementById("slider-image");
+    sliderImage.src = images[currentIndex]; // Setzt das neue Bild
 }
 
-// Starten der Bildrotation
-        changeImage();
+// Automatischer Bildwechsel
+function autoChangeImage() {
+    changeImage(1); // Bild wechseln
+}
+
+// Starte die automatische Bildrotation
+setInterval(autoChangeImage, 5000); // Alle 5 Sekunden
 
     </script>
 </body>

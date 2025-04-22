@@ -151,6 +151,26 @@ nav {
     display: block; /* Verhindert zusätzlichen Abstand unter dem Bild */
 }
 
+.prev, .next {
+    position: absolute; /* Absolute Positionierung */
+    top: 50%; /* Vertikal zentriert */
+    transform: translateY(-50%); /* Zentriert die Pfeile vertikal */
+    background-color: rgba(255, 255, 255, 0.7); /* Hintergrundfarbe mit Transparenz */
+    border: none; /* Kein Rahmen */
+    cursor: pointer; /* Zeiger beim Hover */
+    font-size: 2rem; /* Größe der Pfeile */
+    padding: 10px; /* Polsterung */
+    z-index: 10; /* Über dem Bild */
+}
+
+.prev {
+    left: 10px; /* Abstand vom linken Rand */
+}
+
+.next {
+    right: 10px; /* Abstand vom rechten Rand */
+}
+
 .countdown {
     padding: 20px;
     background-color: white; 
