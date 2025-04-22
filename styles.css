@@ -304,18 +304,26 @@ nav {
     text-align: center; /* Organisationsteam-Banner mittig ausrichten */
 }
 
+.ansprechpartner-info {
+    display: flex; /* Flexbox für die Informationen */
+    justify-content: center; /* Mittig ausrichten */
+    margin: 20px; /* Abstand oben und unten */
+}
 
 .trauzeuge {
-    text-align: center; /* Text zentrieren */
-    margin-right: 40px; /* Abstand zwischen den Trauzeugen */
     display: flex; /* Flexbox für die einzelnen Trauzeugen */
-    flex-direction: column; /* Anordnung in einer Spalte */
-    align-items: center; /* Zentriert die Bilder und Texte */
+    align-items: center; /* Zentriert die Bilder und Texte vertikal */
+    margin-right: 40px; /* Abstand zwischen den Trauzeugen */
 }
 
 .team-member-image {
     width: 100px; /* Beispielbreite für die Bilder */
     height: auto; /* Höhe automatisch anpassen */
+    margin-right: 10px; /* Abstand zwischen Bild und Text */
+}
+
+.info {
+    text-align: left; /* Text linksbündig ausrichten */
 }
 
 .faq {
