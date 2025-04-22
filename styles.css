@@ -304,21 +304,18 @@ nav {
     text-align: center; /* Organisationsteam-Banner mittig ausrichten */
 }
 
-.ansprechpartner-info {
-    display: flex; /* Flexbox für die Informationen */
-    justify-content: center; /* Mittig ausrichten */
-    margin: 20px 0; /* Abstand oben und unten */
+
+.trauzeuge {
+    text-align: center; /* Text zentrieren */
+    margin-right: 40px; /* Abstand zwischen den Trauzeugen */
+    display: flex; /* Flexbox für die einzelnen Trauzeugen */
+    flex-direction: column; /* Anordnung in einer Spalte */
+    align-items: center; /* Zentriert die Bilder und Texte */
 }
 
-.ansprechpartner-info div {
-    text-align: center; /* Text in den Informationsboxen mittig ausrichten */
-    margin-right: 40px; /* Abstand zwischen den Boxen */
-}
-
-.ansprechpartner-info img {
-    width: 100px; /* Breite der Bilder anpassen */
+.team-member-image {
+    width: 100px; /* Beispielbreite für die Bilder */
     height: auto; /* Höhe automatisch anpassen */
-    border-radius: 50%; /* Runde Bilder */
 }
 
 .faq {
