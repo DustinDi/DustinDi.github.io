@@ -405,7 +405,7 @@ function hideMenu() {
 }
         
 let currentIndex = 0; // Aktueller Bildindex
-let interval; // Variable für den Intervall-Timer
+let sliderInterval; // Variable für den Intervall-Timer
 
  // Bildwechsel für die Bilder unter dem Einladungstext
     const images = [
@@ -433,8 +433,8 @@ function autoChangeImage() {
 
 // Timer zurücksetzen
 function resetAutoChange() {
-    clearInterval(interval); // Vorherigen Timer löschen
-    interval = setInterval(autoChangeImage, 5000); // Neuen Timer starten
+    clearInterval(sliderInterval); // Vorherigen Timer löschen
+    sliderInterval = setInterval(autoChangeImage, 5000); // Neuen Timer starten
 }
 
 // Starte die automatische Bildrotation
