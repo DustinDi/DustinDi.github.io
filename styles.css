@@ -338,6 +338,7 @@ nav {
 
 .faq-item {
     margin: 10px 0; /* Abstand zwischen den FAQ-Elementen */
+	
 }
 
 .faq-question {
@@ -347,6 +348,10 @@ nav {
     border-radius: 5px;
     border: 1px solid #fbceb1; /* Optional: Rahmen um die Fragen */
     text-align: center; /* Fragen mittig ausrichten */
+
+	font-family: 'TT Wellingtons', sans-serif; /* Setze die Schriftart für alle faq-Elemente */
+   	font-size: 20px; /* Schriftgröße für faq */
+    	font-weight: bold; /* fette Darstellung */
 }
 
 .faq-answer {
@@ -356,6 +361,11 @@ nav {
     border-radius: 5px;
     margin-top: 5px; /* Abstand zwischen Frage und Antwort */
     text-align: center; /* Antworten mittig ausrichten */
+
+	font-family: 'TT Wellingtons', sans-serif; /* Setze die Schriftart für alle faq-Elemente */
+   	font-size: 18px; /* Schriftgröße für faq */
+    	font-weight: normal; /* Entferne die fette Darstellung */
+   	line-height: 1.4; /* Setzt den Zeilenabstand auf 1,4 */
 }
 
 
