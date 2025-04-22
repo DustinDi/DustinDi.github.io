@@ -318,7 +318,7 @@ nav {
 }
 
 .team-member-image {
-    width: 100px; /* Beispielbreite für die Bilder */
+    width: 200px; /* Beispielbreite für die Bilder */
     height: auto; /* Höhe automatisch anpassen */
     margin-right: 10px; /* Abstand zwischen Bild und Text */
 }
