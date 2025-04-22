@@ -404,7 +404,8 @@ function hideMenu() {
     navLinks.classList.remove('active');
 }
         
-let currentIndex = 0;
+let currentIndex = 0; // Aktueller Bildindex
+let interval; // Variable für den Intervall-Timer
 
  // Bildwechsel für die Bilder unter dem Einladungstext
     const images = [
@@ -422,6 +423,7 @@ function changeImage(direction) {
     currentIndex = (currentIndex + direction + images.length) % images.length; // Berechnet den neuen Index
     const sliderImage = document.getElementById("slider-image");
     sliderImage.src = images[currentIndex]; // Setzt das neue Bild
+    resetAutoChange(); // Timer zurücksetzen
 }
 
 // Automatischer Bildwechsel
@@ -429,8 +431,14 @@ function autoChangeImage() {
     changeImage(1); // Bild wechseln
 }
 
+// Timer zurücksetzen
+function resetAutoChange() {
+    clearInterval(interval); // Vorherigen Timer löschen
+    interval = setInterval(autoChangeImage, 5000); // Neuen Timer starten
+}
+
 // Starte die automatische Bildrotation
-setInterval(autoChangeImage, 5000); // Alle 5 Sekunden
+resetAutoChange(); // Timer initial starten
 
     </script>
 </body>
