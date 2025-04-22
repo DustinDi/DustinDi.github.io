@@ -157,10 +157,6 @@ nav {
     margin-bottom: 40px;
     border-radius: 8px;
     text-align: center; /* Countdown mittig ausrichten */
-
-	font-family: 'Allura', sans-serif; /* Setze die Schriftart */
-    	font-size: 36px; /* Schriftgröße */
-    	font-weight: normal; /* Entferne die fette Darstellung */
 }
 
 .countdown-timer {
