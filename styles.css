@@ -37,10 +37,8 @@ h5 {
 }
 
 .hero-img {
-    	margin: 0; /* Entfernt den Abstand um das Hero-Bild */
-	position: relative;
-    	text-align: center;
-	display: block; /* Verhindert zusätzlichen Abstand unter dem Bild */
+    	position: relative;
+    	display: block; /* Verhindert zusätzlichen Abstand unter dem Bild */
     	width: 65%; /* Bild auf volle Breite setzen */
     	height: auto; /* Höhe automatisch anpassen */
 }
