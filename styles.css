@@ -528,8 +528,7 @@ h5 {
 .map-image {
     position: relative; /* Position relativ für die Overlay-Div */
 	margin: 0;
-		width: 20%; /* Breite des Bildes */
-    		height: auto; /* Höhe automatisch anpassen */
+		
 }
 
 .map-image img {
