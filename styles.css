@@ -472,6 +472,39 @@ h4 {
     height: auto; /* Höhe automatisch anpassen, um das Seitenverhältnis beizubehalten */
 }
 
+.countdown {
+    padding: 20px;
+    background-color: white; 
+    margin-bottom: 20px;
+    border-radius: 8px;
+    text-align: center; /* Countdown mittig ausrichten */
+}
+
+.countdown-timer {
+    display: flex; /* Flexbox für die Countdown-Anzeige */
+    justify-content: center; /* Mittige Ausrichtung */
+}
+
+.countdown-item {
+    margin: 0 20px; /* Abstand zwischen den Countdown-Elementen */
+    text-align: center; /* Text mittig ausrichten */
+}
+
+.countdown-item span {
+    	font-weight: bold; /* Fett für die Zahlen */
+	font-family: 'Allura', sans-serif; /* Setze die Schriftart für alle h1-Elemente */    
+}
+
+.number {
+        font-size: 5rem; /* Schriftgröße für die Zahlen */
+}
+
+.label {
+    	font-family: 'TT Wellingtons', sans-serif;
+	font-weight: normal; /* Fett für die Texte "Tage", "Stunden" und "Minuten" */
+	font-size: 2rem; /* Schriftgröße für Tage, Stunden und Minuten */
+}
+
 .location-img {
     display: block; /* Bild als Block-Element anzeigen */
     margin: auto; /* Automatischer Abstand oben und unten, zentriert */    
