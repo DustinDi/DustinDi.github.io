@@ -531,6 +531,20 @@ h5 {
         font-size: 14px; /* Schriftgröße für mobile Geräte anpassen */
 }
 
+.map-container {
+    position: relative; /* Position relativ für das Pseudoelement */
+}
+
+.map-image {
+    position: relative; /* Position relativ für die Overlay-Div */
+	margin: 0;
+}
+
+.map-image img {
+    display: block; /* Bild blockieren */
+}
+
+
 .hotel-img {
     display: block; /* Bild als Block-Element anzeigen */
     margin: auto; /* Automatischer Abstand oben und unten, zentriert */    
