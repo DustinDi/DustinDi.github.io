@@ -393,7 +393,7 @@ nav {
 
 h1 {
     font-family: 'Allura', sans-serif; /* Setze die Schriftart für alle h1-Elemente */
-    font-size: 30px; /* Schriftgröße für h1 */
+    font-size: 33px; /* Schriftgröße für h1 */
     font-weight: normal; /* Entferne die fette Darstellung */
 }
 
@@ -405,7 +405,7 @@ h2 {
 
 h3 {
     font-family: 'TT Wellingtons', sans-serif; /* Setze die Schriftart für alle h3-Elemente */
-    font-size: 25px; /* Schriftgröße für h3 */
+    font-size: 23px; /* Schriftgröße für h3 */
     font-weight: normal; /* Entferne die fette Darstellung */
 }
 
