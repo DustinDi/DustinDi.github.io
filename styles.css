@@ -452,10 +452,9 @@ h5 {
 }
 
 .einladung {
-    padding: 20px;
+    padding-top: 20px;
     background-color: white; /* Hintergrundfarbe für den Einladungstext auf Weiß geändert */
-    margin: 0;
-    border-radius: 8px;
+    margin-top: -20px;
     text-align: center; /* Einladungstext mittig ausrichten */
 }
 
