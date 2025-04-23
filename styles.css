@@ -4,35 +4,35 @@ body {
 
 h1 {
     font-family: 'Allura', sans-serif; /* Setze die Schriftart für alle h1-Elemente */
-    font-size: 36px; /* Schriftgröße für h1 */
+    font-size: 45px; /* Schriftgröße für h1 */
     font-weight: normal; /* Entferne die fette Darstellung */
     line-height: 1.4; /* Setzt den Zeilenabstand auf 1,4 */
 }
 
 h2 {
     font-family: 'TT Wellingtons', sans-serif; /* Setze die Schriftart für alle h2-Elemente */
-    font-size: 20px; /* Schriftgröße für h2 */
+    font-size: 30px; /* Schriftgröße für h2 */
     font-weight: normal; /* Entferne die fette Darstellung */
     line-height: 1.4; /* Setzt den Zeilenabstand auf 1,4 */
 }
 
 h3 {
     font-family: 'TT Wellingtons', sans-serif; /* Setze die Schriftart für alle h3-Elemente */
-    font-size: 25px; /* Schriftgröße für h3 */
+    font-size: 35px; /* Schriftgröße für h3 */
     font-weight: normal; /* Entferne die fette Darstellung */
     line-height: 1.4; /* Setzt den Zeilenabstand auf 1,4 */
 }
 
 h4 {
     font-family: 'TT Wellingtons', sans-serif; /* Setze die Schriftart für alle h4-Elemente */
-    font-size: 18px; /* Schriftgröße für h4 */
+    font-size: 25px; /* Schriftgröße für h4 */
     font-weight: normal; /* Entferne die fette Darstellung */
     line-height: 1.4; /* Setzt den Zeilenabstand auf 1,4 */
 }
 
 h5 {
     font-family: 'TT Wellingtons', sans-serif; /* Setze die Schriftart für alle h3-Elemente */
-    font-size: 25px; /* Schriftgröße für h3 */
+    font-size: 35px; /* Schriftgröße für h3 */
     line-height: 1.4; /* Setzt den Zeilenabstand auf 1,4 */
 }
 
