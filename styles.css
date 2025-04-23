@@ -508,10 +508,8 @@ h4 {
 
 .location-img {
     display: block; /* Bild als Block-Element anzeigen */
-    	margin-left: 20px; /* Automatischer Abstand oben und unten, zentriert */  
-	margin-right: 20px; /* Automatischer Abstand oben und unten, zentriert */
-	margin-bottom: 20px; /* Automatischer Abstand oben und unten, zentriert */  
-    width: 75%; /* Setze Bildbreite von s' Bierhase Schiere auf 100%, um den Container auszufüllen */    
+    	margin-bottom: 20px; /* Automatischer Abstand oben und unten, zentriert */  
+    width: 100%; /* Setze Bildbreite von s' Bierhase Schiere auf 100%, um den Container auszufüllen */    
     max-width: 100%; /* Bild wird niemals breiter als der Container */
     height: auto;
 }
