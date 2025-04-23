@@ -548,7 +548,7 @@ h5 {
 .timeline-img {
     display: block; /* Bild als Block-Element anzeigen */
     margin: auto; /* Automatischer Abstand oben und unten, zentriert */
-    width: 80%;
+    width: 100%;
     height: auto; /* Höhe automatisch anpassen */
 }
 
