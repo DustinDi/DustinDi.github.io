@@ -4,7 +4,7 @@ body {
 
 h1 {
     font-family: 'Allura', sans-serif; /* Setze die Schriftart für alle h1-Elemente */
-    font-size: 45px; /* Schriftgröße für h1 */
+    font-size: 65px; /* Schriftgröße für h1 */
     font-weight: normal; /* Entferne die fette Darstellung */
     line-height: 1.4; /* Setzt den Zeilenabstand auf 1,4 */
 }
