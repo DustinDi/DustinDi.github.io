@@ -207,7 +207,7 @@ nav {
 .timeline-img {
     display: block; /* Bild als Block-Element anzeigen */
     margin: auto; /* Automatischer Abstand oben und unten, zentriert */
-    width: 30%;
+    width: 35%;
     height: auto; /* Höhe automatisch anpassen */
 }
 
@@ -472,10 +472,10 @@ h4 {
 }
 
 
-    .location-info {
+.location-info {
         flex-direction: column; /* Elemente untereinander anordnen */
         align-items: center; /* Elemente zentrieren */
-    }
+}
 
 .location-info img {
     width: 160px; /* Breite des Bildes */
@@ -490,6 +490,13 @@ h4 {
     .location-info p {
         font-size: 14px; /* Schriftgröße für mobile Geräte anpassen */
     }
+
+.timeline-img {
+    display: block; /* Bild als Block-Element anzeigen */
+    margin: auto; /* Automatischer Abstand oben und unten, zentriert */
+    width: 65%;
+    height: auto; /* Höhe automatisch anpassen */
+}
 
     .nav-left {
         font-size: 1.5rem; /* Schriftgröße für den Navigationsbanner anpassen, gleich wie die Links */
