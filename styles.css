@@ -182,7 +182,7 @@ nav {
 .countdown-timer {
     display: flex; /* Flexbox für die Countdown-Anzeige */
     justify-content: center; /* Mittige Ausrichtung */
-    margin-top: 10px; /* Abstand zwischen Titel und Timer */
+    margin-top: 5px; /* Abstand zwischen Titel und Timer */
 }
 
 .countdown-item {
@@ -192,11 +192,11 @@ nav {
 
 .countdown-item span {
     font-size: 2rem; /* Schriftgröße für die Zahlen */
-    font-weight: normal; /* Fett für die Zahlen */
+    font-weight: bold; /* Fett für die Zahlen */
 }
 
 .label {
-    font-weight: bold; /* Fett für die Texte "Tage", "Stunden" und "Minuten" */
+    font-weight: normal; /* Fett für die Texte "Tage", "Stunden" und "Minuten" */
 }
 
 .number {
