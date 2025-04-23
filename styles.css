@@ -28,14 +28,12 @@ h4 {
     font-size: 25px; /* Schriftgröße für h4 */
     font-weight: normal; /* Entferne die fette Darstellung */
     line-height: 1.4; /* Setzt den Zeilenabstand auf 1,4 */
-	margin-bottom: 5px;
 }
 
 h5 {
     font-family: 'TT Wellingtons', sans-serif; /* Setze die Schriftart für alle h3-Elemente */
     font-size: 35px; /* Schriftgröße für h3 */
     line-height: 1.4; /* Setzt den Zeilenabstand auf 1,4 */
-margin: 0;
 }
 
 .hero {
@@ -132,10 +130,11 @@ nav {
 .einladung {
     padding: 20px;
     background-color: white; /* Hintergrundfarbe für den Einladungstext auf Weiß geändert */
-    margin: 20px;
+    margin: 0;
     border-radius: 8px;
     text-align: center; /* Einladungstext mittig ausrichten */
 }
+
 
 .image-slider {
     display: flex; /* Flexbox für das Layout */
