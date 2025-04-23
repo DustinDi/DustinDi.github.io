@@ -35,6 +35,7 @@ h5 {
     font-family: 'TT Wellingtons', sans-serif; /* Setze die Schriftart für alle h3-Elemente */
     font-size: 35px; /* Schriftgröße für h3 */
     line-height: 1.4; /* Setzt den Zeilenabstand auf 1,4 */
+margin: 0;
 }
 
 .hero {
@@ -253,8 +254,10 @@ nav {
 
 
 .ablaufplan {
+    padding: 20px;
     background-color: white;
     margin: 0;
+    border-radius: 8px;
     text-align: center; /* Tagesablauf mittig ausrichten */
 }
 
@@ -380,6 +383,7 @@ h1 {
     font-family: 'Allura', sans-serif; /* Setze die Schriftart für alle h1-Elemente */
     font-size: 31px; /* Schriftgröße für h1 */
     font-weight: normal; /* Entferne die fette Darstellung */
+	margin-top: 5px;
 }
 
 h2 {
