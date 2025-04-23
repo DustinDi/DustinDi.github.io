@@ -400,6 +400,7 @@ h4 {
     font-family: 'TT Wellingtons', sans-serif; /* Setze die Schriftart für alle h4-Elemente */
     font-size: 18px; /* Schriftgröße für h4 */
     font-weight: normal; /* Entferne die fette Darstellung */
+	margin-bottom: 5px;
 }
 
 h5 {
