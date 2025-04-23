@@ -513,22 +513,12 @@ h5 {
 }
 
 .location-info {
-        flex-direction: column; /* Elemente untereinander anordnen */
-        align-items: center; /* Elemente zentrieren */
+    text-align: center; /* Elemente zentrieren */
 }
 
 .location-info img {
-    width: 160px; /* Breite des Bildes */
+    width: 80px; /* Breite des Bildes */
     height: auto; /* Höhe automatisch anpassen */
-    margin-right: 20px; /* Abstand zwischen Bild und Text */
-}
-
-.location-info div {
-    margin-top: 20px; /* Abstand zwischen Bild und Adressinfo */
-}
-
-.location-info p {
-        font-size: 14px; /* Schriftgröße für mobile Geräte anpassen */
 }
 
 .map-container {
@@ -543,7 +533,6 @@ h5 {
 .map-image img {
     display: block; /* Bild blockieren */
 }
-
 
 .hotel-img {
     display: block; /* Bild als Block-Element anzeigen */
