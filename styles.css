@@ -253,10 +253,8 @@ nav {
 
 
 .ablaufplan {
-    padding: 0;
     background-color: white;
     margin: 0;
-    border-radius: 8px;
     text-align: center; /* Tagesablauf mittig ausrichten */
 }
 
