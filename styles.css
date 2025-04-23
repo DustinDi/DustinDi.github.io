@@ -37,13 +37,17 @@ h5 {
 }
 
 .hero {
-    margin: 0; /* Entfernt den Abstand um das Hero-Bild */
+    	margin: 0; /* Entfernt den Abstand um das Hero-Bild */
+	position: relative;
+    	text-align: center;
 }
 
+
 .hero img {
-    display: block; /* Verhindert zusätzlichen Abstand unter dem Bild */
-    width: 50%; /* Bild auf volle Breite setzen */
-    height: auto; /* Höhe automatisch anpassen */
+    	display: block; /* Verhindert zusätzlichen Abstand unter dem Bild */
+    	width: 50%; /* Bild auf volle Breite setzen */
+    	height: auto; /* Höhe automatisch anpassen */
+	margin: auto;
 }
 
 .center-text {
@@ -105,11 +109,7 @@ nav {
     text-decoration: underline; /* Unterstreichen beim Hover */
 }
 
-.hero {
-    position: relative;
-    text-align: center;
-    margin: 0;
-}
+
 
 
 .underline {
