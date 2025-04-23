@@ -194,17 +194,16 @@ nav {
 	font-family: 'Allura', sans-serif; /* Setze die Schriftart für alle h1-Elemente */    
 }
 
+.number {
+        font-size: 5rem; /* Schriftgröße für die Zahlen */
+}
+
 .label {
     	font-family: 'TT Wellingtons', sans-serif;
 	font-weight: normal; /* Fett für die Texte "Tage", "Stunden" und "Minuten" */
 	font-size: 2rem; /* Schriftgröße für Tage, Stunden und Minuten */
-
 }
 
-.number {
-    font-weight: normal; /* Normale Schriftstärke für die Zahlenwerte */
-    font-size: 5rem; /* Schriftgröße für die Zahlen */
-}
 
 .timeline-img {
     display: block; /* Bild als Block-Element anzeigen */
