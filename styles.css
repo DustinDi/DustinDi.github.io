@@ -475,7 +475,7 @@ h4 {
 .countdown {
     padding: 20px;
     background-color: white; 
-    margin-bottom: 20px;
+    margin-bottom: 15px;
     border-radius: 8px;
     text-align: center; /* Countdown mittig ausrichten */
 }
@@ -496,13 +496,13 @@ h4 {
 }
 
 .number {
-        font-size: 5rem; /* Schriftgröße für die Zahlen */
+        font-size: 4rem; /* Schriftgröße für die Zahlen */
 }
 
 .label {
     	font-family: 'TT Wellingtons', sans-serif;
 	font-weight: normal; /* Fett für die Texte "Tage", "Stunden" und "Minuten" */
-	font-size: 2rem; /* Schriftgröße für Tage, Stunden und Minuten */
+	font-size: 1rem; /* Schriftgröße für Tage, Stunden und Minuten */
 }
 
 .location-img {
