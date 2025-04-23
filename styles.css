@@ -517,13 +517,15 @@ h5 {
 }
 
 .location-info img {
-    width: 20%; /* Breite des Bildes */
+    width: 40%; /* Breite des Bildes */
     height: auto; /* Höhe automatisch anpassen */
 }
 
 .map-container {
-    position: relative; /* Position relativ für das Pseudoelement */
-	margin: auto;
+    display: flex; /* Flexbox aktivieren */
+    justify-content: center; /* Zentriere den Inhalt horizontal */
+    width: 100%; /* Volle Breite für den Container */
+    margin: 0; /* Entferne Margins */
 }
 
 .map-image {
