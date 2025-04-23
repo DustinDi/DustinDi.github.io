@@ -487,9 +487,17 @@ h4 {
     margin-top: 20px; /* Abstand zwischen Bild und Adressinfo */
 }
 
-    .location-info p {
+.location-info p {
         font-size: 14px; /* Schriftgröße für mobile Geräte anpassen */
-    }
+}
+
+.hotel-img {
+    display: block; /* Bild als Block-Element anzeigen */
+    margin: auto; /* Automatischer Abstand oben und unten, zentriert */    
+    width: 70%; /* Setze Bildbreite von Parkhotel Krone auf 100%, um den Container auszufüllen */    
+    max-width: 100%; /* Bild wird niemals breiter als der Container */
+    height: auto;
+}
 
 .timeline-img {
     display: block; /* Bild als Block-Element anzeigen */
