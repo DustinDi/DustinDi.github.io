@@ -243,6 +243,7 @@ nav {
 
 .map-image {
     position: relative; /* Position relativ für die Overlay-Div */
+	margin: 0;
 }
 
 .map-image img {
