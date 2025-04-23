@@ -36,19 +36,15 @@ h5 {
     line-height: 1.4; /* Setzt den Zeilenabstand auf 1,4 */
 }
 
-.hero {
+.hero-img {
     	margin: 0; /* Entfernt den Abstand um das Hero-Bild */
 	position: relative;
     	text-align: center;
-}
-
-
-.hero img {
-    	display: block; /* Verhindert zusätzlichen Abstand unter dem Bild */
+	display: block; /* Verhindert zusätzlichen Abstand unter dem Bild */
     	width: 65%; /* Bild auf volle Breite setzen */
     	height: auto; /* Höhe automatisch anpassen */
-	margin: auto;
 }
+
 
 .center-text {
     text-align: center;
