@@ -190,14 +190,14 @@ nav {
 }
 
 .countdown-item span {
-    	font-size: 6rem; /* Schriftgröße für die Zahlen */
+    	font-size: 5rem; /* Schriftgröße für die Zahlen */
     	font-weight: bold; /* Fett für die Zahlen */
 	font-family: 'Allura', sans-serif; /* Setze die Schriftart für alle h1-Elemente */    
 }
 
 .label {
     font-weight: normal; /* Fett für die Texte "Tage", "Stunden" und "Minuten" */
-	font-size: 4rem; /* Schriftgröße für Tage, Stunden und Minuten */
+	font-size: 2.5 rem; /* Schriftgröße für Tage, Stunden und Minuten */
 
 }
 
