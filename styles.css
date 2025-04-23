@@ -471,6 +471,13 @@ h4 {
     
 }
 
+.location-img {
+    display: block; /* Bild als Block-Element anzeigen */
+    margin: auto; /* Automatischer Abstand oben und unten, zentriert */    
+    width: 75%; /* Setze Bildbreite von s' Bierhase Schiere auf 100%, um den Container auszufüllen */    
+    max-width: 100%; /* Bild wird niemals breiter als der Container */
+    height: auto;
+}
 
 .location-info {
         flex-direction: column; /* Elemente untereinander anordnen */
@@ -494,7 +501,7 @@ h4 {
 .hotel-img {
     display: block; /* Bild als Block-Element anzeigen */
     margin: auto; /* Automatischer Abstand oben und unten, zentriert */    
-    width: 70%; /* Setze Bildbreite von Parkhotel Krone auf 100%, um den Container auszufüllen */    
+    width: 80%; /* Setze Bildbreite von Parkhotel Krone auf 100%, um den Container auszufüllen */    
     max-width: 100%; /* Bild wird niemals breiter als der Container */
     height: auto;
 }
@@ -502,7 +509,7 @@ h4 {
 .timeline-img {
     display: block; /* Bild als Block-Element anzeigen */
     margin: auto; /* Automatischer Abstand oben und unten, zentriert */
-    width: 65%;
+    width: 80%;
     height: auto; /* Höhe automatisch anpassen */
 }
 
