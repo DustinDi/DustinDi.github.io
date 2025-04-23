@@ -506,6 +506,13 @@ h4 {
 	font-size: 1rem; /* Schriftgröße für Tage, Stunden und Minuten */
 }
 
+.location {
+    padding: 20px;
+    background-color: white;
+    margin: 0;
+    text-align: center; /* Locationstext mittig ausrichten */
+}
+
 .location-img {
     display: block; /* Bild als Block-Element anzeigen */
     	margin: 0; /* Automatischer Abstand oben und unten, zentriert */  
