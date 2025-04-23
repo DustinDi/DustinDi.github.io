@@ -463,14 +463,12 @@ h4 {
 .image-slider {
     
     width: 100%; /* Breite des Sliders */
-					margin: auto; /* Automatischer Abstand */
-        
+				        
 }
 
 .slider-img {
     width: 100%; /* Maximale Breite auf 100% setzen */
     height: auto; /* Höhe automatisch anpassen, um das Seitenverhältnis beizubehalten */
-    					display: block; /* Verhindert zusätzlichen Abstand unter dem Bild */
 }
 
 .location-img {
