@@ -195,7 +195,8 @@ nav {
 }
 
 .label {
-    font-weight: normal; /* Fett für die Texte "Tage", "Stunden" und "Minuten" */
+    	font-family: 'TT Wellingtons', sans-serif;
+	font-weight: normal; /* Fett für die Texte "Tage", "Stunden" und "Minuten" */
 	font-size: 2rem; /* Schriftgröße für Tage, Stunden und Minuten */
 
 }
