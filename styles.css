@@ -45,7 +45,7 @@ h5 {
 
 .hero img {
     	display: block; /* Verhindert zusätzlichen Abstand unter dem Bild */
-    	width: 75%; /* Bild auf volle Breite setzen */
+    	width: 65%; /* Bild auf volle Breite setzen */
     	height: auto; /* Höhe automatisch anpassen */
 	margin: auto;
 }
