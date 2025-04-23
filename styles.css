@@ -414,6 +414,20 @@ h4 {
     font-size: 18px; /* Schriftgröße für h4 */
     font-weight: normal; /* Entferne die fette Darstellung */
 }
+
+.hero {
+    	margin: 0; /* Entfernt den Abstand um das Hero-Bild */
+	position: relative;
+    	text-align: center;
+}
+
+
+.hero img {
+    	display: block; /* Verhindert zusätzlichen Abstand unter dem Bild */
+    	width: 100%; /* Bild auf volle Breite setzen */
+    	height: auto; /* Höhe automatisch anpassen */
+	margin: auto;
+}
     
 .nav-right .hamburger {
     display: block; /* Hamburger-Symbol anzeigen */
