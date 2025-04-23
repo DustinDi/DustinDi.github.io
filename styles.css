@@ -284,7 +284,7 @@ nav {
 .hotel-img {
     display: block; /* Bild als Block-Element anzeigen */
     margin: auto; /* Automatischer Abstand oben und unten, zentriert */    
-    width: 60%; /* Setze Bildbreite von Parkhotel Krone auf 100%, um den Container auszufüllen */    
+    width: 65%; /* Setze Bildbreite von Parkhotel Krone auf 100%, um den Container auszufüllen */    
     max-width: 100%; /* Bild wird niemals breiter als der Container */
     height: auto;
 }
