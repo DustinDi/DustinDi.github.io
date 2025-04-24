@@ -216,7 +216,7 @@ nav {
 .timeline-img {
     display: block; /* Bild als Block-Element anzeigen */
     margin: 0 auto; /* Automatischer Abstand oben und unten, zentriert */
-    width: 35%;
+    width: 30%;
     height: auto; /* Höhe automatisch anpassen */
 }
 
