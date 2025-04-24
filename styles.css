@@ -238,6 +238,7 @@ nav {
 
 .location-info {
     text-align: center; /* Standortinformationen mittig ausrichten */
+    
 }
 
 .location-info img {
@@ -338,8 +339,10 @@ nav {
 }
 
 .info {
-    	text-align: center; /* Text linksbündig ausrichten */
-	font-size: 20px;
+    	text-align: center; /* Text mittig ausrichten */
+	font-size: 30px;
+	font-family: 'TT Wellingtons', sans-serif; 
+        
 }
 
 .faq {
@@ -505,10 +508,11 @@ nav {
 
 .trennlinie {
     display: block; /* Bild als Block-Element */
-    margin: 30px auto; /* Abstand oben und unten, zentriert horizontal */
+    margin: 80px auto; /* Abstand oben und unten, zentriert horizontal */
     width: 70%; /* Breite des Bildes */
     height: auto; /* Höhe automatisch anpassen */
 }
+
 
 .einladung {
     padding-top: 20px;
@@ -634,7 +638,7 @@ nav {
 }   
 
 .info {
-    	text-align: left; /* Text linksbündig ausrichten */
+    	text-align: center; /* Text linksbündig ausrichten */
 	font-size: 20px;
 }
 
