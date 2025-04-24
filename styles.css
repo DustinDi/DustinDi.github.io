@@ -71,8 +71,8 @@ header {
 
 .trennlinie {
     display: block; /* Bild als Block-Element */
-    margin: 40px auto; /* Abstand oben und unten, zentriert horizontal */
-    width: 45%; /* Breite des Bildes */
+    margin: 80px auto; /* Abstand oben und unten, zentriert horizontal */
+    width: 50%; /* Breite des Bildes */
     height: auto; /* Höhe automatisch anpassen */
 }
 
