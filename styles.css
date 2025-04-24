@@ -614,6 +614,13 @@ nav {
     height: auto; /* Höhe automatisch anpassen */
 }
 
+.ansprechpartner-info {
+    display: flex; /* Flexbox für die gesamte Info */
+    flex-direction: column; /* Anordnung der Trauzeugen in einer Spalte */
+    align-items: center; /* Zentriert die Trauzeugen horizontal */
+    margin: 20px; /* Margin für den gesamten Bereich */
+}
+
 .trauzeuge {
     display: flex; /* Flexbox für die einzelnen Trauzeugen */
     align-items: center; /* Zentriert die Bilder und Texte vertikal */
