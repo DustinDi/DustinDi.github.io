@@ -416,6 +416,7 @@ h5 {
     	margin: 0; /* Entfernt den Abstand um das Hero-Bild */
 	position: relative;
     	text-align: center;
+	padding: 0;
 }
 
 
@@ -424,7 +425,7 @@ h5 {
     	width: 100%; /* Bild auf volle Breite setzen */
     	height: auto; /* Höhe automatisch anpassen */
 	margin: 0;
-		padding: 0;
+		
 }
 
 
