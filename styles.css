@@ -614,7 +614,17 @@ nav {
     height: auto; /* Höhe automatisch anpassen */
 }
 
-   
+.trauzeuge {
+    display: flex; /* Flexbox für die einzelnen Trauzeugen */
+    align-items: center; /* Zentriert die Bilder und Texte vertikal */
+    margin-bottom: 20px; /* Abstand zwischen den Trauzeugen */
+}
+
+.team-member-image {
+    width: 30%; /* Beispielbreite für die Bilder */
+    height: auto; /* Höhe automatisch anpassen */
+    margin-right: 10px; /* Abstand zwischen Bild und Text */
+}   
 
     .hero-text h1 {
         font-size: 8vw; /* Schriftgröße für den Haupttitel in vw für mobile Geräte */
