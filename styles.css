@@ -359,7 +359,7 @@ nav {
     width: 100%; /* Breite auf 100% setzen */
     max-width: 600px; /* Maximalbreite für die FAQ-Elemente */
     text-align: left; /* Text linksbündig ausrichten */
-    margin: 10px 0; /* Abstand zwischen den FAQ-Elementen */
+    margin: 0; /* Abstand zwischen den FAQ-Elementen */
     padding: 10px; /* Padding für die FAQ-Elemente */
     box-sizing: border-box; /* Padding in die Breite einbeziehen */
 }
