@@ -464,7 +464,7 @@ nav {
     position: absolute; /* Positionierung für Dropdown */
     background-color: #fbceb1; /* Hintergrundfarbe für Dropdown */
     width: 100%; /* Breite auf 100% setzen */
-    top: 50px; /* Positionierung unter dem Header */
+    top: 40px; /* Positionierung unter dem Header */
     left: 0;
     z-index: 1000; /* Über anderen Elementen anzeigen */
     display: none; /* Links standardmäßig ausblenden */
