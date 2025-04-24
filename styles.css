@@ -633,6 +633,11 @@ nav {
     margin-right: 10px; /* Abstand zwischen Bild und Text */
 }   
 
+.info {
+    	text-align: left; /* Text linksbündig ausrichten */
+	font-size: 20px;
+}
+
     .hero-text h1 {
         font-size: 8vw; /* Schriftgröße für den Haupttitel in vw für mobile Geräte */
     }
