@@ -432,6 +432,7 @@ nav {
     justify-content: space-between;
     align-items: center;
 		margin-top: 0;
+		padding: 0;
 }
     
 .nav-right .hamburger {
