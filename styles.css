@@ -424,6 +424,7 @@ h5 {
     	width: 100%; /* Bild auf volle Breite setzen */
     	height: auto; /* Höhe automatisch anpassen */
 	margin: 0;
+		padding: 0;
 }
 
 
