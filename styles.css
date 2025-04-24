@@ -423,7 +423,7 @@ h5 {
     	display: block; /* Verhindert zusätzlichen Abstand unter dem Bild */
     	width: 100%; /* Bild auf volle Breite setzen */
     	height: auto; /* Höhe automatisch anpassen */
-	margin: auto;
+	margin: 0;
 }
 
 
