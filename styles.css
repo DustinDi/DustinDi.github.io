@@ -347,7 +347,7 @@ nav {
     background-color: white;
     margin: 20px;
     border-radius: 8px;
-    text-align: canter; /* FAQ-Banner mittig ausrichten */
+    text-align: center; /* FAQ-Banner mittig ausrichten */
 }
 
 .faq-item {
