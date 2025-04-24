@@ -458,7 +458,7 @@ h5 {
 
 .trennlinie {
     display: block; /* Bild als Block-Element */
-    margin: auto; /* Abstand oben und unten, zentriert horizontal */
+    margin: 30px auto; /* Abstand oben und unten, zentriert horizontal */
     width: 70%; /* Breite des Bildes */
     height: auto; /* Höhe automatisch anpassen */
 }
