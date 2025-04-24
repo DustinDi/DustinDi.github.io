@@ -490,7 +490,7 @@ nav {
 
 .trennlinie {
     display: block; /* Bild als Block-Element */
-    margin: 20px auto 10px; /* Abstand oben und unten, zentriert horizontal */
+    margin: 30px auto 10px; /* Abstand oben und unten, zentriert horizontal */
     width: 70%; /* Breite des Bildes */
     height: auto; /* Höhe automatisch anpassen */
 }
