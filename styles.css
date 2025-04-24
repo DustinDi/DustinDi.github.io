@@ -456,6 +456,13 @@ h5 {
     width: 100%; /* Breite auf 100% setzen, damit sie den gesamten Container einnehmen */
 }
 
+.trennlinie {
+    display: block; /* Bild als Block-Element */
+    margin: auto; /* Abstand oben und unten, zentriert horizontal */
+    width: 70%; /* Breite des Bildes */
+    height: auto; /* Höhe automatisch anpassen */
+}
+
 .einladung {
     padding-top: 20px;
     background-color: white; /* Hintergrundfarbe für den Einladungstext auf Weiß geändert */
