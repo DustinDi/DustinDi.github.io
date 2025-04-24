@@ -360,7 +360,7 @@ nav {
     flex-direction: column; /* Anordnung der Fragen und Antworten in einer Spalte */
     align-items: flex-start; /* Links ausrichten */
     width: 100%; /* Breite auf 100% setzen */
-    max-width: 900px; /* Maximalbreite für die FAQ-Elemente */
+    max-width: 950px; /* Maximalbreite für die FAQ-Elemente */
     text-align: left; /* Text linksbündig ausrichten */
     margin: 0; /* Abstand zwischen den FAQ-Elementen */
     padding: 10px; /* Padding für die FAQ-Elemente */
