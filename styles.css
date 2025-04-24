@@ -406,7 +406,7 @@ h4 {
 h5 {
     font-family: 'TT Wellingtons', sans-serif; /* Setze die Schriftart für alle h3-Elemente */
     font-size: 35px; /* Schriftgröße für h3 */
-	margin-top: 10px;
+	
 }
 
 body {
@@ -490,7 +490,7 @@ nav {
 
 .trennlinie {
     display: block; /* Bild als Block-Element */
-    margin: 80px auto; /* Abstand oben und unten, zentriert horizontal */
+    margin: 20px auto 10px; /* Abstand oben und unten, zentriert horizontal */
     width: 70%; /* Breite des Bildes */
     height: auto; /* Höhe automatisch anpassen */
 }
