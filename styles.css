@@ -352,7 +352,7 @@ nav {
 
 .faq-item {
     margin: 10px 0; /* Abstand zwischen den FAQ-Elementen */
-	
+    text-align: center;
 }
 
 .faq-question {
