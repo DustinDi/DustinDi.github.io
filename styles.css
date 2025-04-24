@@ -428,6 +428,14 @@ h5 {
 		
 }
 
+header {
+    background-color: #fbceb1; /* Behalte die Hintergrundfarbe des Headers */
+    padding: 10px 20px; /* Belasse das Padding, um den Header zu gestalten */
+    position: sticky; /* Macht den Header sticky */
+    top: 0; /* Setzt den Header an den oberen Rand des Bildschirms */
+    z-index: 1000; /* Über anderen Elementen anzeigen */
+    margin: 0; /* Entfernt den Abstand um den Header */
+}
 
 nav {
     display: flex;
