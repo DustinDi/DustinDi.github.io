@@ -417,10 +417,12 @@ body {
 }
 
 .hero {
-    	margin: 0; /* Entfernt den Abstand um das Hero-Bild */
-	padding: 0;
-	height: auto; /* Höhe automatisch anpassen */
-
+    margin: 0; /* Entfernt den Abstand um das Hero-Bild */
+    padding: 0; /* Entferne alle Paddings */
+    position: relative;
+    text-align: center;
+    overflow: hidden; /* Verhindert, dass überflüssiger Inhalt angezeigt wird */
+    height: auto; /* Stelle sicher, dass die Höhe flexibel ist */
 }
 
 
