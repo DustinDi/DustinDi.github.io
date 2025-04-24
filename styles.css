@@ -412,6 +412,10 @@ h5 {
     font-size: 35px; /* Schriftgröße für h3 */
 }
 
+body {
+    margin: 0; /* Entfernt den Standardabstand des Bodys */
+}
+
 .hero {
     	margin: 0; /* Entfernt den Abstand um das Hero-Bild */
 	position: relative;
