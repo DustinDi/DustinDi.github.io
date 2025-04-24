@@ -37,17 +37,19 @@ h5 {
 }
 
 .hero {
-    	margin: 0; /* Entfernt den Abstand um das Hero-Bild */
-	position: relative;
-    	text-align: center;
+    margin: 0; /* Entfernt den Abstand um das Hero-Bild */
+    position: relative;
+    text-align: center;
+    overflow: hidden; /* Verhindert, dass überflüssiger Inhalt angezeigt wird */
+    height: calc(100vh - 70px); /* Höhe des Bildes auf die volle Bildschirmhöhe minus Höhe des Navigationsbanners */
 }
 
-
 .hero img {
-    	display: block; /* Verhindert zusätzlichen Abstand unter dem Bild */
-    	width: 65%; /* Bild auf volle Breite setzen */
-    	height: auto; /* Höhe automatisch anpassen */
-	margin: auto;
+    display: block; /* Verhindert zusätzlichen Abstand unter dem Bild */
+    width: 100%; /* Bildbreite auf 100% setzen */
+    height: 100%; /* Höhe auf 100% setzen, um den Container auszufüllen */
+    object-fit: cover; /* Bild so anpassen, dass es den Container ausfüllt, ohne das Seitenverhältnis zu verlieren */
+    margin: auto;
 }
 
 .center-text {
