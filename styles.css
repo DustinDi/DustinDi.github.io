@@ -406,6 +406,7 @@ h4 {
 h5 {
     font-family: 'TT Wellingtons', sans-serif; /* Setze die Schriftart für alle h3-Elemente */
     font-size: 35px; /* Schriftgröße für h3 */
+	margin-top: 10px;
 }
 
 body {
