@@ -347,7 +347,7 @@ nav {
     background-color: white;
     margin: 20px;
     border-radius: 8px;
-    text-align: center; /* FAQ-Banner mittig ausrichten */
+    text-align: canter; /* FAQ-Banner mittig ausrichten */
 }
 
 .faq-item {
@@ -361,7 +361,7 @@ nav {
     background-color: white; /* Weißer Hintergrund für die Fragen */
     border-radius: 5px;
     border: 1px solid #fbceb1; /* Optional: Rahmen um die Fragen */
-    text-align: center; /* Fragen mittig ausrichten */
+    text-align: left; /* Fragen mittig ausrichten */
 
 	font-family: 'TT Wellingtons', sans-serif; /* Setze die Schriftart für alle faq-Elemente */
    	font-size: 20px; /* Schriftgröße für faq */
@@ -374,7 +374,7 @@ nav {
     background-color: white; /* Weißer Hintergrund für die Antworten */
     border-radius: 5px;
     margin-top: 5px; /* Abstand zwischen Frage und Antwort */
-    text-align: center; /* Antworten mittig ausrichten */
+    text-align: left; /* Antworten mittig ausrichten */
 
 	font-family: 'TT Wellingtons', sans-serif; /* Setze die Schriftart für alle faq-Elemente */
    	font-size: 18px; /* Schriftgröße für faq */
