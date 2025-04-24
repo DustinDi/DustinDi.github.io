@@ -75,7 +75,7 @@ header {
     align-items: center; /* Zentriert den Inhalt vertikal */
     width: 45%; /* Breite des Sliders */
     position: relative; /* Für die Positionierung der Bilder */
-    margin: auto; /* Automatischer Abstand */
+    margin: 20px; /* Automatischer Abstand */
 }
 
 nav {
