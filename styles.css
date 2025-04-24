@@ -353,9 +353,17 @@ nav {
 }
 
 .faq-item {
+    display: flex; /* Flexbox für die FAQ-Elemente */
+    flex-direction: column; /* Anordnung der Fragen und Antworten in einer Spalte */
+    align-items: flex-start; /* Links ausrichten */
+    width: 100%; /* Breite auf 100% setzen */
+    max-width: 600px; /* Maximalbreite für die FAQ-Elemente */
+    text-align: left; /* Text linksbündig ausrichten */
     margin: 10px 0; /* Abstand zwischen den FAQ-Elementen */
-	text-align: left; /* Text linksbündig ausrichten */
+    padding: 10px; /* Padding für die FAQ-Elemente */
+    box-sizing: border-box; /* Padding in die Breite einbeziehen */
 }
+
 
 .faq-question {
     cursor: pointer; /* Zeiger ändern beim Hover */
