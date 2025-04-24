@@ -416,6 +416,7 @@ body {
     margin: 0; /* Entfernt den Standardabstand des Bodys */
 }
 
+
 .hero {
     margin: 0; /* Entfernt den Abstand um das Hero-Bild */
     padding: 0; /* Entferne alle Paddings */
@@ -423,6 +424,7 @@ body {
     text-align: center;
     overflow: hidden; /* Verhindert, dass überflüssiger Inhalt angezeigt wird */
     height: auto; /* Stelle sicher, dass die Höhe flexibel ist */
+background-color: rgba(255, 0, 0, 0.5); /* Rote Hintergrundfarbe für das Titelbild */
 }
 
 
@@ -435,13 +437,14 @@ body {
 }
 
 header {
-    background-color: #fbceb1; /* Behalte die Hintergrundfarbe des Headers */
+    
     padding: 5px 10px; /* Belasse das Padding, um den Header zu gestalten */
     position: sticky; /* Macht den Header sticky */
     top: 0; /* Setzt den Header an den oberen Rand des Bildschirms */
     z-index: 1000; /* Über anderen Elementen anzeigen */
     margin: 0; /* Entfernt den Abstand um den Header */
     height: auto; /* Stelle sicher, dass die Höhe flexibel ist */
+background-color: rgba(0, 255, 0, 0.5); /* Grüne Hintergrundfarbe für den Header */
 }
 
 nav {
