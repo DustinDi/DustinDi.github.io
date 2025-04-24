@@ -34,7 +34,7 @@ h5 {
     font-family: 'TT Wellingtons', sans-serif; /* Setze die Schriftart für alle h3-Elemente */
     font-size: 35px; /* Schriftgröße für h3 */
     line-height: 1.4; /* Setzt den Zeilenabstand auf 1,4 */
-	margin-bottom: 5px;
+	
 }
 
 .hero {
@@ -214,7 +214,7 @@ nav {
 
 .timeline-img {
     display: block; /* Bild als Block-Element anzeigen */
-    margin: auto; /* Automatischer Abstand oben und unten, zentriert */
+    margin: 0 auto; /* Automatischer Abstand oben und unten, zentriert */
     width: 35%;
     height: auto; /* Höhe automatisch anpassen */
 }
@@ -259,7 +259,7 @@ nav {
 
 
 .ablaufplan {
-    padding: 0;
+    padding: 20px;
     background-color: white;
     margin: 0;
     border-radius: 8px;
