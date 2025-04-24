@@ -231,7 +231,7 @@ nav {
 .location-img {
     display: block; /* Bild als Block-Element anzeigen */
     margin: auto; /* Automatischer Abstand oben und unten, zentriert */    
-    width: 60%; /* Setze Bildbreite von s' Bierhase Schiere auf 100%, um den Container auszufüllen */    
+    width: 55%; /* Setze Bildbreite von s' Bierhase Schiere auf 100%, um den Container auszufüllen */    
     max-width: 100%; /* Bild wird niemals breiter als der Container */
     height: auto;
 }
