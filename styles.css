@@ -425,6 +425,13 @@ h5 {
     	height: auto; /* Höhe automatisch anpassen */
 	margin: auto;
 }
+
+
+nav {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
     
 .nav-right .hamburger {
     display: block; /* Hamburger-Symbol anzeigen */
@@ -443,9 +450,9 @@ h5 {
     display: none; /* Links standardmäßig ausblenden */
 }
 
-    .nav-links.active {
+.nav-links.active {
         display: flex; /* Links anzeigen, wenn aktiv */
-    }
+}
 
 .nav-right a {
     margin: 10px 0; /* Abstand zwischen Links */
