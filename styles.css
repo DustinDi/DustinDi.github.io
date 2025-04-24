@@ -467,6 +467,14 @@ nav {
     width: 100%; /* Breite auf 100% setzen, damit sie den gesamten Container einnehmen */
 }
 
+ .nav-left {
+        font-size: 1.5rem; /* Schriftgröße für den Navigationsbanner anpassen, gleich wie die Links */
+    }
+
+.nav-right a {
+        font-size: 1.5rem; /* Schriftgröße für Links anpassen */
+}
+
 .trennlinie {
     display: block; /* Bild als Block-Element */
     margin: 30px auto; /* Abstand oben und unten, zentriert horizontal */
@@ -578,13 +586,7 @@ nav {
     height: auto; /* Höhe automatisch anpassen */
 }
 
-    .nav-left {
-        font-size: 1.5rem; /* Schriftgröße für den Navigationsbanner anpassen, gleich wie die Links */
-    }
-
-    .nav-right a {
-        font-size: 1.5rem; /* Schriftgröße für Links anpassen */
-    }
+   
 
     .hero-text h1 {
         font-size: 8vw; /* Schriftgröße für den Haupttitel in vw für mobile Geräte */
