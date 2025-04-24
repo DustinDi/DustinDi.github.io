@@ -72,6 +72,7 @@ header {
     width: 45%; /* Setzt die Breite auf 100% des übergeordneten Elements */
     height: auto; /* Höhe automatisch anpassen, um das Seitenverhältnis beizubehalten */
     margin: auto; /* Automatischer Abstand */
+	padding: 20px;
   }
 
 nav {
