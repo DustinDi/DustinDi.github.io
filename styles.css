@@ -34,7 +34,8 @@ h5 {
     font-family: 'TT Wellingtons', sans-serif; /* Setze die Schriftart für alle h3-Elemente */
     font-size: 35px; /* Schriftgröße für h3 */
     line-height: 1.4; /* Setzt den Zeilenabstand auf 1,4 */
-margin-bottom: 0;
+	margin-top: 0;
+	margin-bottom: 0;
 	
 }
 
