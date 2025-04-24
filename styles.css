@@ -54,10 +54,7 @@ h5 {
     margin: auto;
 }
 
-.center-text {
-    text-align: center;
-    margin-top: 20px;
-}
+
 
 header {
     background-color: #fbceb1; /* Behalte die Hintergrundfarbe des Headers */
@@ -116,22 +113,6 @@ nav {
     text-decoration: underline; /* Unterstreichen beim Hover */
 }
 
-
-
-
-.underline {
-    display: flex;
-    align-items: center; /* Vertikale Ausrichtung der Elemente */
-    justify-content: center; /* Horizontale Ausrichtung der Elemente */
-    margin-top: 10px; /* Abstand zwischen Titel und Unterstreichung */
-}
-
-.line {
-    flex: 1; /* Linien nehmen den verfügbaren Platz ein */
-    height: 2px; /* Höhe der Linie */
-    background-color: white; /* Farbe der Linie */
-    margin: 0 10px; /* Abstand zwischen Linie und Herzen */
-}
 
 
 .einladung {
@@ -640,13 +621,8 @@ nav {
 .info {
     	text-align: center; /* Text linksbündig ausrichten */
 	font-size: 20px;
+	font-family: 'TT Wellingtons', sans-serif;
 }
 
-    .hero-text h1 {
-        font-size: 8vw; /* Schriftgröße für den Haupttitel in vw für mobile Geräte */
-    }
-
-    .hearts {
-        font-size: 5vw; /* Schriftgröße für Herzen in vw für mobile Geräte */
-    }
+    
 }
