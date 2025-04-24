@@ -41,7 +41,7 @@ h5 {
     position: relative;
     text-align: center;
     overflow: hidden; /* Verhindert, dass überflüssiger Inhalt angezeigt wird */
-    height: calc(100vh - 40px); /* Höhe des Bildes auf die volle Bildschirmhöhe minus Höhe des Navigationsbanners */
+    height: calc(100vh - 42px); /* Höhe des Bildes auf die volle Bildschirmhöhe minus Höhe des Navigationsbanners */
 }
 
 .hero img {
