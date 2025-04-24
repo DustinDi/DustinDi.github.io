@@ -424,7 +424,6 @@ body {
     text-align: center;
     overflow: hidden; /* Verhindert, dass überflüssiger Inhalt angezeigt wird */
     height: auto; /* Stelle sicher, dass die Höhe flexibel ist */
-background-color: rgba(255, 0, 0, 0.5); /* Rote Hintergrundfarbe für das Titelbild */
 }
 
 
